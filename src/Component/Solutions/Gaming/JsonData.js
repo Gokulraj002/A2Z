@@ -6,7 +6,7 @@ export const GamingService = {
     content: [
       {
         title: "Boost player engagement with SMS campaigns",
-        
+        bg:'bg-light',
         description: [
           "Send personalized in-game updates, event invitations, and exclusive offers directly to players' phones.",
           "Re-engage inactive players with targeted promotions and reminders to return to the game.",
@@ -20,6 +20,8 @@ export const GamingService = {
       },
       {
         title: "Streamline tournament communications",
+        bg:'bg-white',
+
         description: [
           "Notify players about upcoming tournaments, registration deadlines, and match schedules via SMS.",
           "Provide real-time updates, such as match results and leaderboard rankings, directly to participants.",
@@ -33,6 +35,8 @@ export const GamingService = {
       },
       {
         title: "Enhance customer support for gamers",
+        bg:'bg-light',
+
         description: [
           "Deliver instant responses to player queries through automated SMS chatbots.",
           "Send troubleshooting guides and account recovery steps directly to players in need.",
@@ -128,4 +132,45 @@ export const GamingService = {
   };
   
   
+  export const GamingTimeline = {
+    title: "Enhance Gaming Experience with Messaging Solutions",
+    items: [
+      {
+        id: 1,
+        stepTitle: "Real-Time Updates",
+        title: "Notify Gamers Instantly",
+        description:
+          "Send real-time updates about game launches, patch notes, and in-game events using WhatsApp. Keep players engaged with timely notifications and exclusive content.",
+        icon: "bi-controller",
+        anime: "fade-right",
+      },
+      {
+        id: 2,
+        stepTitle: "Secure Logins",
+        title: "Enhance Security with OTPs",
+        description:
+          "Provide gamers with secure login experiences using OTPs sent via WhatsApp or SMS. Protect accounts and sensitive information with reliable two-factor authentication.",
+        icon: "bi-shield-lock",
+        anime: "fade-left",
+      },
+      {
+        id: 3,
+        stepTitle: "Interactive Campaigns",
+        title: "Boost Player Engagement with RCS",
+        description:
+          "Leverage RCS to deliver multimedia messages featuring game trailers, tutorials, and competitions. Use interactive buttons for seamless in-game purchases and event registrations.",
+        icon: "bi-chat-left-text",
+        anime: "fade-right",
+      },
+      {
+        id: 4,
+        stepTitle: "Personalized Gaming Experiences",
+        title: "Tailored Messaging for Players",
+        description:
+          "Send personalized game recommendations, updates, and rewards to players. Use WhatsApp and RCS to build loyalty by offering exclusive benefits and early access to content.",
+        icon: "bi-person-video",
+        anime: "fade-left",
+      },
+    ],
+  };
   

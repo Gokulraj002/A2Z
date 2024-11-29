@@ -7,6 +7,7 @@ export const RealEstate = {
   content: [
     {
       title: "Simplify Property Discovery and Engagement",
+      bg:'bg-light',
       description: [
         "Enable buyers to explore properties by location, budget, and amenities effortlessly.",
         "Provide instant property details, brochures, and video tours through SMS or WhatsApp.",
@@ -17,6 +18,8 @@ export const RealEstate = {
     },
     {
       title: "Turn Leads into Long-Term Customers",
+      bg:'bg-white',
+
       description: [
         "Engage prospects consistently with personalized property suggestions and updates.",
         "Use chatbots to automate responses to inquiries and qualify leads quickly.",
@@ -27,6 +30,8 @@ export const RealEstate = {
     },
     {
       title: "Boost Sales and Build Customer Trust",
+      bg:'bg-light',
+
       description: [
         "Share verified property listings and detailed information to ensure transparency.",
         "Automate follow-ups with potential buyers to keep them engaged throughout the process.",
@@ -134,5 +139,48 @@ export const RealEstate = {
           "SMS is a secure and reliable way to communicate critical information like payment reminders or booking confirmations. By using trusted SMS platforms, you can ensure data encryption and compliance with privacy regulations. Additionally, SMS can be integrated with two-factor authentication (2FA) for secure login and transaction processes, providing clients with peace of mind when handling sensitive information."
       }
     ]
+  };
+  
+
+  export const RealEstateTimeline = {
+    title: "Revolutionize Real Estate with Messaging Solutions",
+    items: [
+      {
+        id: 1,
+        stepTitle: "Instant Property Updates",
+        title: "Real-Time Listings with WhatsApp",
+        description:
+          "Share property details, brochures, and virtual tours instantly via WhatsApp. Keep buyers informed about new listings, price changes, and exclusive offers, ensuring seamless communication.",
+        icon: "bi-building",
+        anime: "fade-right",
+      },
+      {
+        id: 2,
+        stepTitle: "Streamlined Transactions",
+        title: "Secure OTPs for Transactions",
+        description:
+          "Ensure safe and hassle-free transactions with one-time passwords (OTPs). Verify payments, agreements, and user logins effortlessly to build trust with clients.",
+        icon: "bi-lock-fill",
+        anime: "fade-left",
+      },
+      {
+        id: 3,
+        stepTitle: "Boosted Engagement",
+        title: "Engage Clients with RCS Messaging",
+        description:
+          "Use RCS to share high-quality images, videos, and interactive property tours. Leverage branded messaging with call-to-action buttons to schedule site visits and close deals faster.",
+        icon: "bi-chat-dots",
+        anime: "fade-right",
+      },
+      {
+        id: 4,
+        stepTitle: "Enhanced Client Relationships",
+        title: "Nurture Leads with Personalized Messaging",
+        description:
+          "Stay connected with potential buyers through tailored follow-ups. Use WhatsApp and RCS to share updates, offer property recommendations, and maintain long-term client relationships.",
+        icon: "bi-heart",
+        anime: "fade-left",
+      },
+    ],
   };
   

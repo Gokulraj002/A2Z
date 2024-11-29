@@ -12,9 +12,10 @@ const SolutionsDropdown = () => {
   const byIndustry = [
     // { name: "BFSI", icon: "🏦", path: "/bfsi" },
     { name: "Real Estate", icon: "🏠", path: "/real-estate/" },
-    { name: "Travel & Hospitality", icon: "🏨", path: "/travel-hospitality" },
-    { name: "Healthcare", icon: "🩺", path: "/healthcare" },
-    { name: "Gaming", icon: "🎮", path: "/gaming" },
+    { name: "Tours & Travels", icon: "🏨", path: "/tours-travel/" },
+    { name: "Gaming", icon: "🎮", path: "/gaming/" },
+
+    { name: "Healthcare", icon: "🩺", path: "/health-care/" },
    
   ];
 

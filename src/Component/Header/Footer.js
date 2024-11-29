@@ -17,7 +17,7 @@ import affirm from '../image/affirm-logo.png'
 
 const Footer = () => {
   return (
-    <footer className="fotter-bg text-white py-5">
+    <footer className="bg text-white py-5">
       <div className="container">
         <div className="row">
           {/* Logo and About Section */}

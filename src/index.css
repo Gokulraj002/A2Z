@@ -61,7 +61,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   font-family: 'inter' !important;
-  line-height: 29px;
+  line-height: 26px;
 }
 
 .para-color2{
@@ -91,9 +91,10 @@ body {
 
 }
 .iconcolor {
-  background: linear-gradient(120deg, #039ef8, #ffd34d, #ffb35c); /* Gradient background */
-  -webkit-background-clip: text; /* Clip gradient to text */
-  -webkit-text-fill-color: transparent; /* Make text color transparent to show the gradient */
+  background: linear-gradient(100deg, #03bff8, #dac342, #f5a03e); /* Gradient background */
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent; 
+  font-weight: bold; /* Adding font weight */
 }
 
 

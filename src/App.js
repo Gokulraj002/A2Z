@@ -24,6 +24,8 @@ import MainFaq from "./Component/Resources/FAQ/FAQ";
 import NoPage from "./Component/NoPage/NoPage";
 import RealEstate from "./Component/Solutions/RealEstate/RealEstate";
 import Gaming from "./Component/Solutions/Gaming/Gaming";
+import Travel from "./Component/Solutions/Travel/Travel";
+import HealthCare from "./Component/Solutions/HealthCare/HealthCare";
 
 function App() {
   useEffect(() => {
@@ -56,6 +58,8 @@ function App() {
           <Route path='faq/' element={<MainFaq/>} />
           <Route path="real-estate/" element={<RealEstate/>} />
           <Route path="gaming/" element={<Gaming/>} />
+          <Route path="tours-travel" element={<Travel/>} />
+          <Route path="health-care" element={<HealthCare/>} />
           <Route path='*' element={<NoPage/>} />
          </Route>
       </Routes>

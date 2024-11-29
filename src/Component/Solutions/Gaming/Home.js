@@ -3,7 +3,7 @@ import gamingImage from "../../image/Solutions/game.png"; // Replace with your g
 
 const Home = () => {
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 bg2">
       <div className="container">
         <div className="row align-items-center aos">
           {/* Left Content */}

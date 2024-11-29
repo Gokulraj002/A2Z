@@ -72,7 +72,7 @@ const Reviews = () => {
   return (
     <section className="py-5 aos">
       <div className="container " data-aos='zoom-in'>
-        <h2 className="text-center mb-4 head1" >Trusted By These Brands</h2>
+        <h2 className="text-center mb-5 head1 " >Trusted By These Brands</h2>
         <Slider {...sliderSettings}>
           {reviewImages.map((image, index) => (
             <div key={index} className="px-2" > 

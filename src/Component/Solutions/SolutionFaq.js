@@ -11,7 +11,7 @@ const SolutionFaq = ({ data }) => {
     <div className="bg2">
         <div className="container py-5">
           {/* Title */}
-          <h1 className="text-center fw-bold mb-4">{data.title}</h1>
+          <h2 className="text-center fw-bold mb-4">{data.title}</h2>
         
           {/* Accordion Section */}
           <div className="accordion aos">
