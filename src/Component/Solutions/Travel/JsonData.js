@@ -4,41 +4,44 @@ import Travel3 from '../../image/Solutions/Travel3.png';
 
 export const ToursAndTravels = {
   title: "Tours and Travels Services",
-  
   content: [
     {
       title: "Enhance Customer Experience with WhatsApp Service",
-      bg:'bg-light',
+      bg: "bg-light",
       description: [
-        "Provide instant booking confirmations and itinerary updates via WhatsApp.",
-        "Send personalized travel offers and discounts directly to customers.",
-        "Enable seamless communication for inquiries and travel support through chatbots."
+        "Provide instant booking confirmations and real-time itinerary updates via WhatsApp.",
+        "Send personalized travel offers, last-minute deals, and exclusive discounts directly to customers.",
+        "Simplify customer communication with AI-powered chatbots for inquiries, travel tips, and quick support.",
+        "Build customer loyalty by sending feedback forms and post-trip thank-you messages through WhatsApp.",
       ],
-      image: Travel1 // Replace with the actual path
+      image: Travel1, // Replace with the actual path
     },
     {
       title: "Reach Travelers Faster with RCS Messaging",
-      bg:'bg-white',
-
+      bg: "bg-white",
       description: [
-        "Share high-quality images, videos, and brochures of holiday packages.",
-        "Use interactive buttons for quick bookings and payments.",
-        "Send real-time alerts for flight, hotel, and travel updates with verified sender branding."
+        "Showcase holiday packages with stunning images, videos, and carousels to inspire travelers.",
+        "Enable quick bookings with interactive call-to-action buttons for reservations and payments.",
+        "Send real-time alerts for flight changes, hotel updates, and travel advisories with branded messages.",
+        "Create engaging campaigns with rich media to promote seasonal offers and travel destinations.",
       ],
-      image: Travel2 // Replace with the actual path
+      image: Travel2, // Replace with the actual path
     },
     {
       title: "Simplify Travel Planning with Smart Communication",
-      bg:'bg-light',
+      bg: "bg-light",
       description: [
-        "Automate reminders for upcoming trips, payments, and schedule changes.",
-        "Provide 24/7 support with AI-driven chatbots integrated with RCS or WhatsApp.",
-        "Engage customers with location-based travel suggestions and updates."
+        "Automate reminders for trip schedules, payment deadlines, and travel document updates.",
+        "Provide 24/7 travel support through integrated chatbots on WhatsApp or RCS for hassle-free communication.",
+        "Engage customers with location-based recommendations for restaurants, attractions, and experiences.",
+        "Streamline group travel by sending itineraries and trip updates to all participants simultaneously.",
       ],
-      image: Travel3 // Replace with the actual path
-    }
-  ]
+      image: Travel3, // Replace with the actual path
+    },
+  ],
 };
+
+
 export const WhyChooseTravel = {
     title: "Why Choose Tours and Travels Services",
     items: [

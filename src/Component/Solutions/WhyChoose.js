@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyChoose = ({ data }) => {
   return (
-    <div className="">
+    <div className="bg-light">
       <div className="container py-5 ">
         <h2 className="text-center fw-bold mb-5 font1">{data.title}</h2>
         <div className="row g-4" para>

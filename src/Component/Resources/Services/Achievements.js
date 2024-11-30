@@ -25,7 +25,7 @@ const achievements = [
   },
   {
     icon: clientsIcon,
-    value: 9999,
+    value: 13999,
     suffix: "+",
     label: "Happy Clients",
     anime:"zoom-in-left",
@@ -81,7 +81,7 @@ const Achievements = () => {
                     <CountUp
                       start={0}
                       end={achievement.value}
-                      duration={2.5}
+                      duration={5.5}
                       suffix={achievement.suffix}
                     />
                   </h3>

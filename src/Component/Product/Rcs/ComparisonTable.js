@@ -7,7 +7,7 @@ import { faCheckCircle, faTimesCircle } from "@fortawesome/free-solid-svg-icons"
 // JSON Data
 const tableData = {
   title: "Compare RCS Messaging Options",
-  subtitle: "Key differences between SMS and RCS Messaging",
+  subtitle: "Discover how RCS Messaging outshines traditional SMS for businesses.",
   headers: ["Feature", "SMS", "RCS Messaging"],
   rows: [
     {
@@ -15,12 +15,12 @@ const tableData = {
       sms: {
         icon: "times",
         color: "red",
-        text: "Only text messages and links"
+        text: "Plain text with limited functionality"
       },
       rcs: {
         icon: "check",
         color: "green",
-        text: "Supports images, videos, and carousels"
+        text: "Share stunning images, videos, and dynamic carousels"
       }
     },
     {
@@ -28,38 +28,38 @@ const tableData = {
       sms: {
         icon: "times",
         color: "red",
-        text: "Not available"
+        text: "No brand identification"
       },
       rcs: {
         icon: "check",
         color: "green",
-        text: "Brand-verified sender with logo"
+        text: "Showcase your brand with verified sender IDs and logos"
       }
     },
     {
-      feature: "Suggested Replies and Actions",
+      feature: "Interactive Messaging",
       sms: {
         icon: "times",
         color: "red",
-        text: "Not supported"
+        text: "Limited to basic replies"
       },
       rcs: {
         icon: "check",
         color: "green",
-        text: "Interactive replies and quick actions"
+        text: "Engage customers with quick replies and actionable buttons"
       }
     },
     {
-      feature: "Read Receipts",
+      feature: "Delivery and Read Receipts",
       sms: {
         icon: "times",
         color: "red",
-        text: "Not supported"
+        text: "No tracking available"
       },
       rcs: {
         icon: "check",
         color: "green",
-        text: "Track message reads in real-time"
+        text: "Track delivery status and message reads in real-time"
       }
     },
     {
@@ -67,12 +67,12 @@ const tableData = {
       sms: {
         icon: "check",
         color: "green",
-        text: "Supports replies"
+        text: "Supports basic replies"
       },
       rcs: {
         icon: "check",
         color: "green",
-        text: "Enhanced, real-time interaction"
+        text: "Foster real-time conversations with seamless interaction"
       }
     },
     {
@@ -80,16 +80,17 @@ const tableData = {
       sms: {
         icon: "times",
         color: "red",
-        text: "Not available"
+        text: "Lacks personalization"
       },
       rcs: {
         icon: "check",
         color: "green",
-        text: "Customized with brand colors and styles"
+        text: "Enhance messages with brand colors, fonts, and styles"
       }
     }
   ]
 };
+
 
 // Component
 const ComparisonTable = () => {
@@ -114,12 +115,12 @@ const ComparisonTable = () => {
         <h2 className="text-center fw-bold mb-3" style={{ color: "#203239" }}>
           {tableData.title}
         </h2>
-        <h4
+        <h5
           className="text-center mb-4"
           style={{ color: "#203239", fontWeight: "400" }}
         >
           {tableData.subtitle}
-        </h4>
+        </h5>
         <div className="table-responsive aos">
           <table
             className="table table-bordered table-striped align-middle"

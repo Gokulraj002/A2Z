@@ -2,13 +2,13 @@ import React from 'react'
 import Home from './Home'
 import Service from './Service'
 
-const HealthCare = () => {
+const Food = () => {
   return (
     <div>
-      <Home/>
-      <Service/>
+        <Home/>
+        <Service/>
     </div>
   )
 }
 
-export default HealthCare
+export default Food

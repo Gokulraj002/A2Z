@@ -68,68 +68,70 @@ const Timeline = () => {
   }, []);
 
   return (
-    <div className="container py-5">
-      <h2 className="text-center mb-4">Request Demo</h2>
-      <div className="position-relative d-flex justify-content-between align-items-center">
-        {/* Timeline Line */}
-        <div
-          className="position-absolute timeline "
-          style={{
-            height: "4px",
-            background: "grey",
-            zIndex: -1,
-          }}
-        >
+    <div className="bg-light">
+      <div className="container py-5 ">
+        <h2 className="text-center mb-4">Request Demo</h2>
+        <div className="position-relative d-flex justify-content-between align-items-center">
+          {/* Timeline Line */}
           <div
+            className="position-absolute timeline "
             style={{
-              width: `${((activeStep - 1) / (steps.length - 1)) * 100}%`,
-              height: "100%",
-              background: "#007bff",
-              transition: "width 0.3s ease",
-            }}
-          ></div>
-        </div>
-
-        {/* Timeline Steps */}
-        {steps.map((step) => (
-          <div
-            key={step.id}
-            className={`text-center`}
-            onClick={() => setActiveStep(step.id)}
-            style={{
-              cursor: "pointer",
-              flex: 1,
-              position: "relative",
+              height: "4px",
+              background: "grey",
+              zIndex: 0,
             }}
           >
             <div
-              className={`rounded-circle ${
-                activeStep === step.id ? "bg-primary text-white" : "bg-light text-dark"
-              }`}
               style={{
-                width: "50px",
-                height: "50px",
-                lineHeight: "50px",
-                margin: "0 auto",
-                fontWeight: "bold",
+                width: `${((activeStep - 1) / (steps.length - 1)) * 100}%`,
+                height: "100%",
+                background: "#007bff",
+                transition: "width 0.3s ease",
+              }}
+            ></div>
+          </div>
+      
+          {/* Timeline Steps */}
+          {steps.map((step) => (
+            <div
+              key={step.id}
+              className={`text-center`}
+              onClick={() => setActiveStep(step.id)}
+              style={{
+                cursor: "pointer",
+                flex: 1,
+                position: "relative",
               }}
             >
-              {step.id}
+              <div
+                className={`rounded-circle ${
+                  activeStep === step.id ? "bg-primary text-white" : "bg-light text-dark"
+                }`}
+                style={{
+                  width: "50px",
+                  height: "50px",
+                  lineHeight: "50px",
+                  margin: "0 auto",
+                  fontWeight: "bold",
+                }}
+              >
+                {step.id}
+              </div>
+              <p
+                className={`mt-2 ${activeStep === step.id ? "text-primary fw-bold" : "text-dark"}`}
+                style={{ fontSize: "14px" }}
+              >
+                {step.title}
+              </p>
             </div>
-            <p
-              className={`mt-2 ${activeStep === step.id ? "text-primary fw-bold" : "text-dark"}`}
-              style={{ fontSize: "14px" }}
-            >
-              {step.title}
-            </p>
-          </div>
-        ))}
-      </div>
-
-      {/* Active Step Description */}
-      <div className="mt-4 text-center para-color">
-        <h5 className="text-primary">{steps.find((step) => step.id === activeStep).title}</h5>
-        <p className="text-muted">{steps.find((step) => step.id === activeStep).description}</p>
+          ))}
+        </div>
+      
+        {/* Active Step Description */}
+        <div className="mt-4 text-center para-color">
+          <h5 className="text-primary">{steps.find((step) => step.id === activeStep).title}</h5>
+          <p className="text-muted">{steps.find((step) => step.id === activeStep).description}</p>
+        </div>
       </div>
     </div>
   );

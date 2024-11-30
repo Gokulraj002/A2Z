@@ -15,19 +15,19 @@ const TryForFree = () => {
           <div className="place-center">
             <h2 className="mb-4">Why Choose Us?</h2>
             <p>
-              Empower your business communication with cutting-edge services
-              designed to make interactions seamless and impactful. Here’s what you get:
+              Transform your business communication with innovative solutions
+              designed to engage your audience and drive results. Here's why we're trusted:
             </p>
             <ul className="list-unstyled">
               {[
-                "Automate your customer interactions with WhatsApp Business API (Waba).",
-                "Deliver visually engaging messages with RCS for rich media.",
-                "Send high-volume campaigns with our reliable Bulk SMS service.",
-                "Reach your audience instantly through our Voice Call solutions.",
-                "Enhance security and trust with lightning-fast OTP deliveries.",
-                "Access detailed analytics and performance insights for better decision-making.",
-                "Boost your conversions with personalized messaging and automation.",
-                "Experience 24/7 dedicated support to keep your business running smoothly.",
+                "Simplify customer engagement with our intuitive WhatsApp Business API.",
+                "Deliver rich, interactive messages with RCS for a superior customer experience.",
+                "Scale your campaigns with our robust and reliable Bulk SMS solutions.",
+                "Create impactful connections using crystal-clear Voice Call services.",
+                "Enhance security with quick, accurate, and secure OTP delivery systems.",
+                "Track success with detailed reporting and actionable insights for growth.",
+                "Personalize your outreach to improve customer satisfaction and retention.",
+                "Enjoy 24/7 expert support to ensure seamless communication operations.",
               ].map((item, index) => (
                 <li key={index} className="mb-2 pt-2">
                   <Checkbox checked />
@@ -36,8 +36,8 @@ const TryForFree = () => {
               ))}
             </ul>
             <p className="mt-3">
-              <strong>Still thinking?</strong> Try our services risk-free and
-              take your communication strategy to the next level. Experience the difference now!
+              <strong>Ready to elevate your business?</strong> Experience the
+              power of modern communication with no strings attached. Start now and see the difference!
             </p>
           </div>
         </div>
@@ -45,8 +45,8 @@ const TryForFree = () => {
         {/* Right Section */}
         <div className="col-md-6" data-aos="fade-left">
           <FormComponent
-            title="Sign Up Now – It's Free!"
-            buttonText="Try For Free Now"
+            title="Get Started for Free Today!"
+            buttonText="Try Now for Free"
             onFinish={onFinish}
           />
         </div>

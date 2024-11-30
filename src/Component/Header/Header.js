@@ -58,7 +58,6 @@ const Header = () => {
     },
   ];
 
-
   return (
     <>
       <HeaderTop />
@@ -85,7 +84,9 @@ const Header = () => {
               aria-labelledby="offcanvasNavbarLabel"
             >
               <div className="offcanvas-header">
-                <img src={logo} alt="Logo" style={{ height: "60px" }} />
+                <Link to="/">
+                  <img src={logo} alt="Logo" style={{ height: "60px" }} />
+                </Link>
                 <button
                   type="button"
                   className="btn-close"
@@ -164,14 +165,17 @@ const Header = () => {
                   ))}
                 </ul>
 
-                <div className="d-flex">
+                <div className="btn-header  gap-3 ">
                   <Link
                     to="/try-for-free/"
-                    className="btn btn-outline-info me-2"
+                    className="btn btn-primary px-4 buton fw-bold"
                   >
                     Try For Free
                   </Link>
-                  <Link to="/request-demo/" className="btn btn-primary">
+                  <Link
+                    to="/request-demo/"
+                    className="btn btn-outline-primary px-4 buton fw-bold"
+                  >
                     Request Demo
                   </Link>
                 </div>

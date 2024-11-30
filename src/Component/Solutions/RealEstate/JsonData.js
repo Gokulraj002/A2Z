@@ -6,38 +6,47 @@ export const RealEstate = {
   title: "Real Estate Services",
   content: [
     {
-      title: "Simplify Property Discovery and Engagement",
-      bg:'bg-light',
+      title: "Streamline Sales with WhatsApp",
+      bg: 'bg-light',
       description: [
-        "Enable buyers to explore properties by location, budget, and amenities effortlessly.",
-        "Provide instant property details, brochures, and video tours through SMS or WhatsApp.",
-        "Schedule site visits and send automated reminders to minimize no-shows."
+        "Use WhatsApp to instantly share property details, brochures, and video tours with potential buyers.",
+        "Enable seamless two-way communication for inquiries, scheduling visits, and providing updates.",
+        "Send personalized property recommendations and offers directly to clients' phones.",
+        "Facilitate quick sales by allowing buyers to reserve properties or request more details through WhatsApp."
       ],
-   
       image: Estate // Replace with the actual path
     },
     {
-      title: "Turn Leads into Long-Term Customers",
-      bg:'bg-white',
-
+      title: "Remarket Effectively with RCS",
+      bg: 'bg-white',
       description: [
-        "Engage prospects consistently with personalized property suggestions and updates.",
-        "Use chatbots to automate responses to inquiries and qualify leads quickly.",
-        "Leverage SMS campaigns to upsell properties and generate referrals from satisfied buyers."
+        "Leverage RCS to share rich media content like virtual property tours and high-quality images.",
+        "Run interactive remarketing campaigns with action buttons for booking appointments or exploring new listings.",
+        "Send follow-up messages to reconnect with potential buyers and reignite interest.",
+        "Enhance client engagement with branded, visually appealing property updates."
       ],
-    
+      image: Estate // Replace with the actual path
+    },
+    {
+      title: "Ensure Timely Reminders with Voice Call Solutions",
+      bg: 'bg-light',
+      description: [
+        "Send automated voice reminders for scheduled property visits or payment deadlines.",
+        "Use voice calls to provide personalized updates, ensuring clear and direct communication.",
+        "Follow up with potential buyers through professional, automated voice campaigns.",
+        "Notify clients of critical updates such as price changes or property availability."
+      ],
       image: Estate1 // Replace with the actual path
     },
     {
-      title: "Boost Sales and Build Customer Trust",
-      bg:'bg-light',
-
+      title: "Build Long-Lasting Relationships with Multi-Channel Solutions",
+      bg: 'bg-white',
       description: [
-        "Share verified property listings and detailed information to ensure transparency.",
-        "Automate follow-ups with potential buyers to keep them engaged throughout the process.",
-        "Provide secure payment reminders, booking confirmations, and transaction updates via SMS."
+        "Combine WhatsApp, RCS, and Voice Call to create a seamless customer journey.",
+        "Stay connected with buyers through personalized follow-ups and loyalty programs.",
+        "Use AI-driven chatbots on WhatsApp to handle inquiries 24/7, ensuring no lead is lost.",
+        "Establish trust with consistent, transparent, and professional communication."
       ],
-    
       image: Estate2 // Replace with the actual path
     }
   ]
@@ -45,65 +54,61 @@ export const RealEstate = {
 
 
 
-  export const WhyChooseUs = {
-    title: "Why Choose Real Estate Services",
-    items: [
-      {
-        id: 1,
-        icon: "bi-bell",
-        title: "Send personalized broadcast property alerts",
-        anime: "zoom-in-right",
 
-        description:
-          "Realtors can send personalized WhatsApp message broadcast to a number of prospects in one-go without the risk of getting blocked.",
-      },
-      {
-        id: 2,
-        icon: "bi-grid",
-        title: "30+ channels",
-        anime: "zoom-in-up",
+export const WhyChooseUs = {
+  title: "Why Choose Our Real Estate Services",
+  items: [
+    {
+      id: 1,
+      icon: "bi-whatsapp",
+      title: "Seamless Communication with WhatsApp",
+      anime: "zoom-in-right",
+      description:
+        "Empower realtors to send instant property updates, personalized offers, and virtual tours through WhatsApp, ensuring faster and more effective client engagement.",
+    },
+    {
+      id: 2,
+      icon: "bi-graph-up",
+      title: "Drive Conversions with RCS Messaging",
+      anime: "zoom-in-up",
+      description:
+        "Engage clients with visually stunning RCS messages that showcase high-quality property images, videos, and brochures, helping prospects make decisions faster.",
+    },
+    {
+      id: 3,
+      icon: "bi-telephone",
+      title: "Timely Follow-Ups with Voice Calls",
+      anime: "zoom-in-left",
+      description:
+        "Use automated voice call solutions to remind clients about scheduled visits, payment deadlines, and new property launches, leaving a professional impression.",
+    },
+    {
+      id: 4,
+      icon: "bi-robot",
+      title: "24/7 Support with AI Chatbots",
+      anime: "zoom-in-right",
+      description:
+        "Provide round-the-clock assistance to answer inquiries, schedule appointments, and share property details, ensuring no lead is ever missed.",
+    },
+    {
+      id: 5,
+      icon: "bi-person-check",
+      title: "Build Trust with Verified Messaging",
+      anime: "zoom-in-down",
+      description:
+        "Leverage verified WhatsApp and RCS messaging to ensure secure and authentic communication with buyers, boosting confidence in your services.",
+    },
+    {
+      id: 6,
+      icon: "bi-broadcast",
+      title: "Effortless Lead Nurturing",
+      anime: "zoom-in-left",
+      description:
+        "Stay connected with prospects through personalized follow-ups, exclusive offers, and real-time updates, converting interest into long-term relationships.",
+    },
+  ],
+};
 
-        description:
-          "Integrate 30+ messaging channels through Text, Voice, and Video to create a 'shop anywhere' experience.",
-      },
-      {
-        id: 3,
-        icon: "bi-headset",
-        title: "24/7 support",
-        anime: "zoom-in-left",
-
-        description:
-          "AI-powered chatbot that can easily answer all the FAQs providing leads with immediate answers, so that realtors can spend time on more complex tasks.",
-      },
-      {
-        id: 4,
-        icon: "bi-bell",
-        title: "Send personalized broadcast property alerts",
-        anime: "zoom-in-right",
-
-        description:
-          "Realtors can send personalized WhatsApp message broadcast to a number of prospects in one-go without the risk of getting blocked.",
-      },
-      {
-        id: 5,
-        icon: "bi-grid",
-        title: "30+ channels",
-        anime: "zoom-in-down",
-
-        description:
-          "Integrate 30+ messaging channels through Text, Voice, and Video to create a 'shop anywhere' experience.",
-      },
-      {
-        id: 6,
-        icon: "bi-headset",
-        title: "24/7 support",
-        anime: "zoom-in-left",
-
-        description:
-          "AI-powered chatbot that can easily answer all the FAQs providing leads with immediate answers, so that realtors can spend time on more complex tasks.",
-      },
-    ],
-  };
   
   export const RealEstateFAQ = {
     title: "Real Estate Services - FAQs",

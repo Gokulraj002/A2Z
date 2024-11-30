@@ -26,7 +26,7 @@ const Apisupport = () => {
   return (
     <div className="container py-5 text-center aos">
       <h2 className="fw-bold mb-4" style={{ color: "#203239" }}>
-        Our Bulk SMS & API Will Support
+        Our Whatsapp & API Will Support
       </h2>
       <div className="row justify-content-center" data-aos='zoom-in-up'>
         {icons.map((icon, index) => (

@@ -4,34 +4,19 @@ import Mission from '../../image/api.jpg'
 import Vision from '../../image/Vission.jpg'
 import Client from "../../Product/Clients";
 import SocialMedia from "../../Product/SocialMedia";
-import Reviews from "../../Product/BulkSms/Reviews";
+// import Reviews from "../../Product/BulkSms/Reviews";2
 import WhyChoose from '../../image/about-choose.jpeg'
-import Banner from '../../image/About-banner.jpeg'
+import Testimonials from "../Carrer/Testimonials";
 
 const AboutHome = () => {
   return (
     <div>
-      {/* Hero Section */}
-      <div 
-        className="text-white text-center py-5 "
-        style={{
-          backgroundImage: `url(${Banner})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          minHeight: "400px",
-        }}
-      >
-        {/* <h1 className="display-4 fw-bold">About Us</h1> */}
-        <h1 className="head text-center w-50 mx-auto ">
-          Discover our story and mission as we shape the future of business
-          solutions
-        </h1>
-      </div>
+     
 
       {/* Who We Are */}
       <div className="container py-5">
         <h2 className="text-center fw-bold mb-4">Who We Are</h2>
-        <div className="row aos">
+        <div className="row aos para-color align">
           <div className="col-md-6" data-aos='zoom-in-right'>
             <p>
               At A2ZSMS, we are a trailblazing SMS solutions provider committed
@@ -71,12 +56,12 @@ const AboutHome = () => {
       {/* Our Journey */}
 
       {/* Mission & Vision */}
-     <div className="bg2 para-color">
+     <div className="bg-light para-color">
          <div className="container py-5">
            <h2 className="text-center fw-bold mb-4">Our Mission & Vision</h2>
         
            {/* Mission */}
-           <div className="row align-items-center mb-5 aos">
+           <div className="row align-items-center mb-5 aos align">
              <div className="col-md-6" data-aos='fade-right'>
                <h4 className="fw-bold">Our Mission</h4>
                <p>
@@ -110,13 +95,13 @@ const AboutHome = () => {
            </div>
            </div>
            </div>
-           <div className="my-3 bg-light">
-             <Reviews/>
+           <div className=" bg-light">
+             <Testimonials/>
            </div>
            {/* Vision */}
-           <div className="bg3 py-5 para-color" >
+           <div className="bg-light py-5 para-color" >
             <div className="container">
-           <div className="row align-items-center py-2 mt-5 aos">
+           <div className="row align-items-center py-2 mt-5 aos align">
              <div className="col-md-6 order-md-2" data-aos='fade-left'>
                <h4 className="fw-bold">Our Vision</h4>
                <p>
@@ -159,6 +144,7 @@ const AboutHome = () => {
      {/* <Industries/> */}
 
      <SocialMedia/>
+     
 
       {/* Call-to-Action */}
       <div className="bg-light py-5">

@@ -1,7 +1,6 @@
 import Healthcare1 from '../../image/Solutions/Care1.png';
 import Healthcare2 from '../../image/Solutions/Care2.png';
 import Healthcare3 from '../../image/Solutions/Care3.png';
-
 export const HealthcareServices = {
   title: "Healthcare Communication Solutions",
   content: [
@@ -9,9 +8,10 @@ export const HealthcareServices = {
       title: "Enhance Patient Care with WhatsApp API",
       bg: 'bg-light',
       description: [
-        "Send instant appointment confirmations and reminders via WhatsApp.",
-        "Share test results, prescriptions, and medical reports securely.",
-        "Enable 24/7 support with AI-powered chatbots for inquiries and health advice."
+        "Provide instant access to test results, medical advice, and prescriptions directly through WhatsApp.",
+        "Send real-time reminders for appointments, follow-ups, and vaccinations to reduce no-shows.",
+        "Enable personalized health advice and support with AI-powered chatbots available 24/7.",
+        "Offer patients a seamless channel to connect with doctors, book consultations, and receive updates securely."
       ],
       image: Healthcare1 // Replace with the actual path
     },
@@ -19,9 +19,10 @@ export const HealthcareServices = {
       title: "Streamline Healthcare with RCS Messaging",
       bg: 'bg-white',
       description: [
-        "Provide multimedia-rich updates on health tips, treatments, and care plans.",
-        "Use interactive buttons for quick appointment bookings and patient feedback.",
-        "Share branded messages for vaccination schedules, wellness programs, and emergency alerts."
+        "Share interactive messages with multimedia-rich content, including care plans and wellness programs.",
+        "Allow patients to book, reschedule, or cancel appointments through interactive RCS buttons.",
+        "Promote health awareness campaigns with engaging visuals and verified branding.",
+        "Deliver time-sensitive emergency alerts and health tips in an impactful, accessible format."
       ],
       image: Healthcare2 // Replace with the actual path
     },
@@ -29,14 +30,16 @@ export const HealthcareServices = {
       title: "Secure Patient Communication with Bulk SMS and OTP",
       bg: 'bg-light',
       description: [
-        "Send secure OTPs for patient verification and payment processing.",
-        "Notify patients about upcoming appointments, health checkups, and reminders.",
-        "Deliver critical health updates and alerts directly to patients' phones."
+        "Ensure secure login and payment processing with OTP verification for patient accounts.",
+        "Send timely reminders for health checkups, follow-ups, and prescription refills.",
+        "Notify patients about lab results, discharge summaries, and critical health updates promptly.",
+        "Facilitate seamless communication for large-scale health programs with bulk SMS campaigns."
       ],
       image: Healthcare3 // Replace with the actual path
     }
   ]
 };
+
 
 export const WhyChooseHealthcare = {
   title: "Why Choose Healthcare Communication Solutions",

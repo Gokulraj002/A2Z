@@ -7,6 +7,7 @@ import {
   faTwitter,
   faLinkedinIn,
   faYoutube,
+  faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import logo from '../image/logo.png'
@@ -132,7 +133,7 @@ const Footer = () => {
           {/* Newsletter Section */}
           <div className="col-md-3 mb-4">
             <h5 className="fw-bold">Newsletter</h5>
-            <p className="pt-2">
+            <p className="py-2">
               Sign up to receive our weekly newsletter to get the latest updates.
             </p>
             <div className="input-group mb-3">
@@ -146,21 +147,44 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faPaperPlane} />
               </button>
             </div>
-            <div className="d-flex mt-3">
-              <Link to="#" className="text-white me-3 fs-5">
-                <FontAwesomeIcon icon={faFacebookF} />
-              </Link>
-              <Link to="#" className="text-white me-3 fs-5">
-                <FontAwesomeIcon icon={faTwitter} />
-              </Link>
-              <Link to="#" className="text-white me-3 fs-5">
-                <FontAwesomeIcon icon={faLinkedinIn} />
-              </Link>
-              <Link to="#" className="text-white fs-5">
-                <FontAwesomeIcon icon={faYoutube} />
-              </Link>
+            <div className="d-flex mt-4">
+  <Link
+    to="#"
+    className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-primary rounded-circle"
+    style={{ width: "40px", height: "40px" }}
+  >
+    <FontAwesomeIcon icon={faFacebookF} />
+  </Link>
+  <Link
+    to="#"
+    className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-info rounded-circle"
+    style={{ width: "40px", height: "40px" }}
+  >
+    <FontAwesomeIcon icon={faTwitter} />
+  </Link>
+  <Link
+    to="#"
+    className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-primary rounded-circle"
+    style={{ width: "40px", height: "40px" }}
+  >
+    <FontAwesomeIcon icon={faLinkedinIn} />
+  </Link>
+  <Link
+    to="#"
+    className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-success rounded-circle"
+    style={{ width: "40px", height: "40px" }}
+  >
+    <FontAwesomeIcon icon={faWhatsapp} />
+  </Link>
+  <Link
+    to="#"
+    className="text-white fs-5 d-flex justify-content-center align-items-center bg-danger rounded-circle"
+    style={{ width: "40px", height: "40px" }}
+  >
+    <FontAwesomeIcon icon={faYoutube} />
+  </Link>
+</div>
 
-            </div>
             
           </div>
         </div>

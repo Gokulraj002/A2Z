@@ -43,35 +43,37 @@ const Home = () => {
      
       >
         <div className="container-fluid aos  bg-light py-5 shadow">
-          <div className="row text-center " data-aos='flip-up'>
-          <h2 className="font1 text-center py-3">How It Works: Simplify Your Bulk SMS Campaigns</h2>
-
-            {featuresData.map((feature) => (
-              <div className="col-md-3 mb-4" data-aos='zoom-in-up' data-aos-duration='2000' key={feature.id}>
-                <div
-                  className="p-4"
-                
-                >
-                  <img
-                    src={feature.image}
-                    alt={feature.title}
-                    style={{
-                      width: "60px",
-                      height: "60px",
-                      marginBottom: "15px",
-                    }}
-                  />
-                  <h5 className="fw-bold" style={{ color: "#203239" }}>
-                    {feature.title}
-                  </h5>
-                  <p className="text-muted para-color" style={{ fontSize: "0.9rem" }}>
-                    {feature.description}
-                  </p>
+          <div className="container">
+            <div className="row " data-aos='flip-up'>
+            <h2 className="font1 text-center py-3">How It Works: Simplify Your Bulk SMS Campaigns</h2>
+            
+              {featuresData.map((feature) => (
+                <div className="col-md-3 mb-4" data-aos='zoom-in-up' data-aos-duration='2000' key={feature.id}>
+                  <div
+                    className="p-4"
+                  
+                  >
+                    <img
+                      src={feature.image}
+                      alt={feature.title}
+                      style={{
+                        width: "60px",
+                        height: "60px",
+                        marginBottom: "15px",
+                      }}
+                    />
+                    <h5 className="fw-bold" style={{ color: "#203239" }}>
+                      {feature.title}
+                    </h5>
+                    <p className="text-muted para-color" style={{ fontSize: "0.9rem" }}>
+                      {feature.description}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
+            </div>
           </div>
-        </div>
       </section>
     </div>
   );

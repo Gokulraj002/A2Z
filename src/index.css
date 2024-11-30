@@ -1,26 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
-
-
-
 body {
     font-family: 'Jost', sans-serif;
 }
-
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
 }
 .place-center{
-  /* display: grid; */
   place-content: center;
 }
 
 @media (max-width: 768px) {
-
 .collapse{
   background-color: rgb(20, 131, 206);
 }
@@ -28,7 +20,6 @@ body {
   gap: 10px;
 }
 }
-
 
 .head{
   font-family: EB Garamond, serif;
@@ -78,26 +69,21 @@ body {
 
 .bg1{
   background-color: rgb(243, 247, 251);
-  /* background: linear-gradient(90deg, #FF9900, #FFD700, #00BFFF);
-   */
 }
 
 .bg2{
-  background: linear-gradient(120deg, #E0F7FA, #FFF9E7, #FFECE6);
-
+  /* background: linear-gradient(120deg, #E0F7FA, #FFF9E7, #FFECE6); */
+  background: linear-gradient(120deg, #cfeefa, #fcf8df, #fff3e6);
 }
 .bg3{
   background: linear-gradient(120deg,#FFECE6, #FFF9E7,  #E0F7FA);
-
 }
 .iconcolor {
   background: linear-gradient(100deg, #03bff8, #dac342, #f5a03e); /* Gradient background */
   -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent; 
-  font-weight: bold; /* Adding font weight */
+  font-weight: bold; 
 }
-
-
 .text1{
   font-family: '__Poppins_e16692', sans-serif;
   color: #5f6880;

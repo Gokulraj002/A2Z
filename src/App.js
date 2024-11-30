@@ -26,11 +26,12 @@ import RealEstate from "./Component/Solutions/RealEstate/RealEstate";
 import Gaming from "./Component/Solutions/Gaming/Gaming";
 import Travel from "./Component/Solutions/Travel/Travel";
 import HealthCare from "./Component/Solutions/HealthCare/HealthCare";
+import Food from "./Component/Solutions/Food/Food";
 
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1500, // Animation duration in milliseconds
+      duration: 1800, // Animation duration in milliseconds
       once: false, // Allow animations to repeat on scroll
       mirror: true, // Re-animate elements when they scroll back into view
     });
@@ -60,6 +61,7 @@ function App() {
           <Route path="gaming/" element={<Gaming/>} />
           <Route path="tours-travel" element={<Travel/>} />
           <Route path="health-care" element={<HealthCare/>} />
+          <Route path="food-beverage" element={<Food/>} />
           <Route path='*' element={<NoPage/>} />
          </Route>
       </Routes>

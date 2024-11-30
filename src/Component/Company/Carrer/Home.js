@@ -1,9 +1,9 @@
 import React from "react";
-import Banner from '../../image/Carrer-Banner.jpeg'
-import Carrer from '../../image/carrer.jpeg'
+import Carrer from '../../image/Career.png'
+import Testimonials from "./Testimonials";
 
 const Home = () => {
-  const backgroundImage ={Banner}
+  // const backgroundImage ={Banner}
   const openPositions = [
     {
       title: "Frontend Developer",
@@ -33,53 +33,58 @@ const Home = () => {
 
   return (
     <div>
-      {/* Header Section */}
-      <div
-        className="text-white text-center py-5"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          minHeight: "400px",
-        }}
-      >
-        <h1 className="display-4 fw-bold">Careers at Our Company</h1>
-        <p className="lead">
-          Join us and help build the future with cutting-edge technology and
-          creativity.
-        </p>
-      </div>
+    
 
       {/* Why Join Us Section */}
-      <div className="container py-5">
-        <h2 className="text-center mb-4 fw-bold">Why Join Us?</h2>
-        <div className="row">
-          <div className="col-md-6 d-grid">
-            <div className="place-center">
-              <p>
-                At our company, we believe in nurturing talent and providing a
-                collaborative environment where innovation thrives. We’re not
-                just a workplace – we’re a community of passionate professionals
-                shaping the future.
-              </p>
-              <ul>
-                <li>Flexible work environment with remote options.</li>
-                <li>Opportunities for career growth and learning.</li>
-                <li>Health and wellness benefits.</li>
-                <li>Collaborate with industry-leading professionals.</li>
-                <li>Work on impactful projects that matter.</li>
-              </ul>
-            </div>
+      <section className="py-5 ">
+      <div className="container">
+        <div className="row align-items-center aos">
+          {/* Left Content */}
+          <div className="col-md-6 para-color" data-aos="fade-right">
+            <h1 className="fw-bold mb-4">
+              Join Our{" "}
+              <span className="text-primary">Dynamic Team</span>
+            </h1>
+            <p>
+              Be a part of an organization that values creativity, collaboration, and innovation. At our company, we focus on fostering a positive work environment where every individual can thrive.
+            </p>
+            <ul className="list-unstyled mt-4 text-muted">
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Flexible work environment with remote options available.</span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Professional development and career growth opportunities.</span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Comprehensive health and wellness benefits for all employees.</span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Work alongside experienced professionals in the industry.</span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Contribute to impactful projects that make a difference.</span>
+              </li>
+            </ul>
           </div>
-          <div className="col-md-6">
+
+          {/* Right Image Section */}
+          <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={Carrer}
               alt="Why Join Us"
-              className="img-fluid rounded shadow"
+              className="img-fluid rounded "
             />
           </div>
         </div>
       </div>
+    </section>
+
+    <Testimonials/>
 
       {/* Open Positions Section */}
       <div className="container py-5">
