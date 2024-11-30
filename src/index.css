@@ -72,8 +72,8 @@ body {
 }
 
 .bg2{
-  /* background: linear-gradient(120deg, #E0F7FA, #FFF9E7, #FFECE6); */
-  background: linear-gradient(120deg, #cfeefa, #fcf8df, #fff3e6);
+  background: linear-gradient(120deg, #E0F7FA, #FFF9E7, #FFECE6);
+  /* background: linear-gradient(120deg, #cfeefa, #fcf8df, #fff3e6); */
 }
 .bg3{
   background: linear-gradient(120deg,#FFECE6, #FFF9E7,  #E0F7FA);
