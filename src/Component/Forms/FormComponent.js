@@ -34,7 +34,7 @@ const FormComponent = ({ title, buttonText }) => {
   };
 
   return (
-    <div className="p-3 border-0 rounded bg2 aos shadow-sm">
+    <div className="p-3 border-0 rounded bg2 aos shadow-sm ">
       <h3 className="mb-3 text-center">{title}</h3>
       <p className="text-center">Get started in just a few steps and go live within minutes.</p>
       <Form layout="vertical" form={form} onFinish={onFinish} size="large">
