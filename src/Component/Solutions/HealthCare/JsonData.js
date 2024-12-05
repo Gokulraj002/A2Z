@@ -1,45 +1,45 @@
-import Healthcare1 from '../../image/Solutions/Care1.png';
-import Healthcare2 from '../../image/Solutions/Care2.png';
-import Healthcare3 from '../../image/Solutions/Care3.png';
+import Healthcare1 from "../../image/Solutions/Care1.png";
+import Healthcare2 from "../../image/Solutions/Care2.png";
+import Healthcare3 from "../../image/Solutions/Care3.png";
+
 export const HealthcareServices = {
-  title: "Healthcare Communication Solutions",
+  title: "Healthcare Messaging Solutions",
   content: [
     {
-      title: "Enhance Patient Care with WhatsApp API",
-      bg: 'bg-light',
+      title: "Transform Patient Engagement with WhatsApp API",
+      bg: "bg-light",
       description: [
-        "Provide instant access to test results, medical advice, and prescriptions directly through WhatsApp.",
-        "Send real-time reminders for appointments, follow-ups, and vaccinations to reduce no-shows.",
-        "Enable personalized health advice and support with AI-powered chatbots available 24/7.",
-        "Offer patients a seamless channel to connect with doctors, book consultations, and receive updates securely."
+        "Share test results, prescriptions, and appointment details instantly with patients via WhatsApp.",
+        "Send reminders for checkups, follow-ups, and vaccination schedules to improve attendance rates.",
+        "Enable 24/7 support for patient inquiries through WhatsApp-powered chatbots, ensuring prompt assistance.",
+        "Simplify consultation bookings and updates with personalized messaging directly on WhatsApp.",
       ],
-      image: Healthcare1 // Replace with the actual path
+      image: Healthcare1, // Replace with the actual path
     },
     {
-      title: "Streamline Healthcare with RCS Messaging",
-      bg: 'bg-white',
+      title: "Boost Patient Outreach with WhatsApp Campaigns",
+      bg: "bg-white",
       description: [
-        "Share interactive messages with multimedia-rich content, including care plans and wellness programs.",
-        "Allow patients to book, reschedule, or cancel appointments through interactive RCS buttons.",
-        "Promote health awareness campaigns with engaging visuals and verified branding.",
-        "Deliver time-sensitive emergency alerts and health tips in an impactful, accessible format."
+        "Send targeted health awareness messages about ongoing programs and wellness tips.",
+        "Engage patients with appointment campaigns, reducing wait times and cancellations.",
+        "Promote timely seasonal vaccination drives and health camps to encourage participation.",
+        "Ensure patients receive verified health advice and educational content through branded campaigns.",
       ],
-      image: Healthcare2 // Replace with the actual path
+      image: Healthcare2, // Replace with the actual path
     },
     {
-      title: "Secure Patient Communication with Bulk SMS and OTP",
-      bg: 'bg-light',
+      title: "Ensure Secure Healthcare Transactions with OTP Services",
+      bg: "bg-light",
       description: [
-        "Ensure secure login and payment processing with OTP verification for patient accounts.",
-        "Send timely reminders for health checkups, follow-ups, and prescription refills.",
-        "Notify patients about lab results, discharge summaries, and critical health updates promptly.",
-        "Facilitate seamless communication for large-scale health programs with bulk SMS campaigns."
+        "Provide secure patient authentication using OTPs for online consultations and portal access.",
+        "Safeguard health data during account logins and payment transactions with WhatsApp OTP.",
+        "Send instant alerts for critical updates, lab reports, or discharge instructions securely.",
+        "Enhance patient confidence with reliable communication channels for sensitive information.",
       ],
-      image: Healthcare3 // Replace with the actual path
-    }
-  ]
+      image: Healthcare3, // Replace with the actual path
+    },
+  ],
 };
-
 
 export const WhyChooseHealthcare = {
   title: "Why Choose Healthcare Communication Solutions",
@@ -49,80 +49,86 @@ export const WhyChooseHealthcare = {
       icon: "bi-geo-alt",
       title: "Instant Appointment Management",
       anime: "zoom-in-right",
-      description: "Automate appointment bookings, confirmations, and reminders seamlessly."
+      description:
+        "Automate appointment bookings, confirmations, and reminders seamlessly.",
     },
     {
       id: 2,
       icon: "bi-shield-lock",
       title: "Secure Patient Communication",
       anime: "zoom-in-up",
-      description: "Ensure patient confidentiality with encrypted messaging services for test results and medical reports."
+      description:
+        "Ensure patient confidentiality with encrypted messaging services for test results and medical reports.",
     },
     {
       id: 3,
       icon: "bi-chat",
       title: "24/7 Patient Support",
       anime: "zoom-in-left",
-      description: "Provide round-the-clock support via AI-driven chatbots on WhatsApp and RCS platforms."
+      description:
+        "Provide round-the-clock support via AI-driven chatbots on WhatsApp and RCS platforms.",
     },
     {
       id: 4,
       icon: "bi-broadcast",
       title: "Personalized Health Campaigns",
       anime: "zoom-in-right",
-      description: "Promote wellness programs, vaccination drives, and health tips through personalized messages."
+      description:
+        "Promote wellness programs, vaccination drives, and health tips through personalized messages.",
     },
     {
       id: 5,
       icon: "bi-credit-card",
       title: "Effortless Payment Notifications",
       anime: "zoom-in-down",
-      description: "Send payment reminders, confirmations, and secure OTPs for seamless transactions."
+      description:
+        "Send payment reminders, confirmations, and secure OTPs for seamless transactions.",
     },
     {
       id: 6,
       icon: "bi-heart",
       title: "Enhance Patient Trust",
       anime: "zoom-in-left",
-      description: "Keep patients engaged with personalized follow-ups, health tips, and care plans."
-    }
-  ]
+      description:
+        "Keep patients engaged with personalized follow-ups, health tips, and care plans.",
+    },
+  ],
 };
 
 export const HealthcareFAQ = {
-  title: "Healthcare Communication Solutions - FAQs",
+  title: "Healthcare Messaging Solutions - FAQs",
   faqs: [
     {
       id: 1,
       question: "How does WhatsApp improve patient communication?",
       answer:
-        "WhatsApp ensures seamless communication by delivering instant updates on appointments, test results, and medical reports. It provides a secure platform for patient support and engagement."
+        "WhatsApp provides instant updates on appointments, prescriptions, and test results. It ensures a reliable and accessible platform for real-time interaction between patients and healthcare providers.",
     },
     {
       id: 2,
-      question: "What are the benefits of RCS messaging in healthcare?",
+      question: "How secure is WhatsApp for healthcare transactions?",
       answer:
-        "RCS messaging allows sharing rich media like videos, images, and interactive buttons for appointments, health tips, and reminders. It improves patient engagement with branded communication."
+        "WhatsApp uses end-to-end encryption, ensuring secure communication for appointment bookings, payment confirmations, and patient data sharing, complying with healthcare standards.",
     },
     {
       id: 3,
-      question: "How secure is Bulk SMS and OTP for healthcare transactions?",
+      question: "Can WhatsApp support vaccination campaigns?",
       answer:
-        "Bulk SMS and OTP ensure secure patient verification, appointment scheduling, and payment processing. They protect sensitive data with encryption and comply with healthcare privacy standards."
+        "Yes, WhatsApp can notify patients about vaccination schedules, send reminders, and confirm appointments, making it an effective tool for managing large-scale health drives.",
     },
     {
       id: 4,
-      question: "Can these services support vaccination drives?",
+      question: "How does WhatsApp enhance emergency communication?",
       answer:
-        "Yes, WhatsApp, RCS, and Bulk SMS can notify patients about vaccination schedules, share reminders, and provide real-time updates, making vaccination campaigns more effective."
+        "WhatsApp enables immediate alerts for critical health updates, emergency instructions, and disaster responses, ensuring timely and effective communication with patients and staff.",
     },
     {
       id: 5,
-      question: "How do voice calls benefit healthcare communication?",
+      question: "How can WhatsApp help with patient engagement?",
       answer:
-        "Voice calls allow direct communication for critical updates, emergency support, and personalized health advice, ensuring a human touch in patient interactions."
-    }
-  ]
+        "WhatsApp offers personalized messages, health tips, and appointment reminders, creating a continuous connection that builds trust and improves patient satisfaction.",
+    },
+  ],
 };
 
 export const HealthcareTimeline = {

@@ -7,30 +7,30 @@ const Home = () => {
       <div className="container">
         <div className="row align-items-center aos">
           {/* Left Content */}
-          <div className="col-md-6" data-aos="fade-right">
+          <div className="col-md-6 para-color" data-aos="fade-right">
             <h1 className="fw-bold mb-4">
               Revolutionize Gaming with{" "}
-              <span className="text-primary">SMS Solutions</span>
+              <span className="text-primary">WhatsApp Solutions</span>
             </h1>
             <p className="text-muted">
-              Enhance your gaming platform by leveraging SMS services to improve
-              player engagement, streamline communications, and ensure real-time
-              updates for gamers.
+              Transform the gaming experience by leveraging WhatsApp for real-time updates, personalized communication, and player engagement like never before.
             </p>
             <ul className="list-unstyled mt-4">
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                <span>Send personalized in-game updates and notifications.</span>
+                <span>Send instant game updates, challenges, and rewards.</span>
               </li>
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                <span>
-                  Share tournament schedules, results, and real-time updates.
-                </span>
+                <span>Share tournament schedules, live results, and updates.</span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Provide seamless account recovery with OTPs on WhatsApp.</span>
               </li>
               <li className="d-flex align-items-start">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                <span>Provide account recovery assistance through SMS.</span>
+                <span>Boost engagement with personalized gaming offers.</span>
               </li>
             </ul>
             <button className="btn btn-primary mt-4 px-4 py-2 fw-bold">
@@ -42,8 +42,8 @@ const Home = () => {
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
               src={gamingImage}
-              alt="Gaming SMS Services"
-              className="img-fluid rounded "
+              alt="Gaming WhatsApp Services"
+              className="img-fluid rounded"
             />
           </div>
         </div>

@@ -1,56 +1,46 @@
 import Game1 from '../../image/Solutions/Game1.png'
 import Game2 from '../../image/Solutions/Game2.png'
 import Game3 from '../../image/Solutions/Game3.png'
+
 export const GamingService = {
-    title: "Gaming Services",
-    content: [
-      {
-        title: "Boost player engagement with SMS campaigns",
-        bg:'bg-light',
-        description: [
-          "Send personalized in-game updates, event invitations, and exclusive offers directly to players' phones.",
-          "Re-engage inactive players with targeted promotions and reminders to return to the game.",
-          "Enhance retention rates by providing instant rewards or promotional codes through SMS notifications."
-        ],
-        stat: {
-          value: "78%",
-          text: "Player engagement boost"
-        },
-        image: Game1 // Replace with the actual path
-      },
-      {
-        title: "Streamline tournament communications",
-        bg:'bg-white',
+  title: "Gaming Services",
+  content: [
+    {
+      title: "Engage Players with WhatsApp Campaigns",
+      bg: "bg-light",
+      description: [
+        "Send personalized updates about new game features, events, and exclusive rewards instantly via WhatsApp.",
+        "Reignite player interest with targeted campaigns and reminders for limited-time challenges or discounts.",
+        "Boost participation in gaming events by sharing invites and easy-to-join links directly with players.",
+        "Deliver interactive messages with game previews, tips, and promotional codes to keep players engaged.",
+      ],
+      image: Game1, // Replace with the actual path
+    },
+    {
+      title: "Simplify Tournament Coordination",
+      bg: "bg-white",
+      description: [
+        "Communicate tournament schedules, registration details, and updates through WhatsApp for quick access.",
+        "Share live match updates, rankings, and results directly with participants in real time.",
+        "Use automated reminders to ensure players stay informed about upcoming matches and deadlines.",
+        "Enable organizers to handle large-scale tournaments effortlessly with streamlined communication channels.",
+      ],
+      image: Game2, // Replace with the actual path
+    },
+    {
+      title: "Deliver Seamless Player Support",
+      bg: "bg-light",
+      description: [
+        "Resolve player queries instantly using AI-powered WhatsApp chatbots for round-the-clock support.",
+        "Provide secure account recovery options and detailed troubleshooting steps directly via WhatsApp.",
+        "Notify players about server maintenance, updates, or issue resolutions to keep them informed.",
+        "Enhance trust by offering real-time support for account-related or gameplay concerns.",
+      ],
+      image: Game3, // Replace with the actual path
+    },
+  ],
+};
 
-        description: [
-          "Notify players about upcoming tournaments, registration deadlines, and match schedules via SMS.",
-          "Provide real-time updates, such as match results and leaderboard rankings, directly to participants.",
-          "Ensure smooth coordination with organizers and players using automated reminders and alerts."
-        ],
-        stat: {
-          value: "62%",
-          text: "Improved tournament participation"
-        },
-        image: Game2 // Replace with the actual path
-      },
-      {
-        title: "Enhance customer support for gamers",
-        bg:'bg-light',
-
-        description: [
-          "Deliver instant responses to player queries through automated SMS chatbots.",
-          "Send troubleshooting guides and account recovery steps directly to players in need.",
-          "Keep players informed about service updates, maintenance schedules, and issue resolutions."
-        ],
-        stat: {
-          value: "85%",
-          text: "Faster query resolution"
-        },
-        image: Game3 // Replace with the actual path
-      }
-    ]
-  };
-  
   export const WhyChooseGaming = {
     title: "Why Choose Our Gaming Services",
   
@@ -112,65 +102,77 @@ export const GamingService = {
     faqs: [
       {
         id: 1,
-        question: "How can SMS improve player engagement?",
+        question: "How does WhatsApp enhance real-time updates in gaming?",
         answer:
-          "SMS allows you to send personalized in-game updates, exclusive offers, and event reminders directly to players, ensuring they stay engaged with your platform. By utilizing SMS, you can target players with tailored messages that resonate with their gaming preferences. Whether it's notifying them of an upcoming event, promoting special rewards, or reminding them of daily tasks in-game, SMS helps you create a deeper connection with players and fosters long-term engagement."
+          "WhatsApp allows you to send instant notifications about game progress, events, or updates directly to players. With its fast delivery and multimedia support, it ensures players are always informed and engaged with the latest happenings."
       },
       {
         id: 2,
-        question: "Can SMS be used for tournament coordination?",
+        question: "What makes WhatsApp ideal for coordinating tournaments?",
         answer:
-          "Yes! SMS can notify players about upcoming tournaments, match schedules, results, and reminders for seamless communication. It ensures that players are informed in real-time about important updates, reducing confusion and delays. You can also use SMS to share personalized invitations, entry confirmations, and last-minute schedule changes. This instant and direct communication channel ensures players are always on the same page, leading to a smoother and more enjoyable tournament experience for both organizers and participants."
+          "WhatsApp simplifies tournament management by allowing organizers to send schedules, match updates, and live results directly to players. Dedicated WhatsApp groups also help maintain smooth communication between participants and event coordinators."
       },
       {
         id: 3,
-        question: "Is SMS secure for account recovery?",
+        question: "How can WhatsApp campaigns boost gaming promotions?",
         answer:
-          "Absolutely. SMS provides a quick and secure way to send account recovery codes or troubleshooting steps to players. With two-factor authentication (2FA), players can receive a unique one-time password (OTP) directly to their registered phone number, adding an extra layer of security to their accounts. This ensures that sensitive account details remain protected, even in the case of unauthorized access attempts. Additionally, SMS offers a reliable way to assist players in real-time, making it an essential tool for customer support and security in the gaming industry."
+          "WhatsApp campaigns let you share exclusive offers, game updates, or event invites with a targeted audience. By using personalized messaging, you can create excitement and drive player participation in promotional activities."
+      },
+      {
+        id: 4,
+        question: "How does WhatsApp ensure secure account recovery?",
+        answer:
+          "WhatsApp provides secure account recovery through OTP-based verification, ensuring only authorized users can access accounts. With end-to-end encryption, sensitive data like recovery codes remain protected during transmission."
+      },
+      {
+        id: 5,
+        question: "Why is WhatsApp effective for long-term player engagement?",
+        answer:
+          "WhatsApp keeps players engaged with regular updates, exclusive rewards, and personalized notifications. Its interactive features help build a strong connection with players, encouraging loyalty and repeat interactions."
       }
     ]
   };
   
   
   export const GamingTimeline = {
-    title: "Enhance Gaming Experience with Messaging Solutions",
+    title: "Enhance Gaming Experience with WhatsApp Messaging",
     items: [
       {
         id: 1,
         stepTitle: "Real-Time Updates",
-        title: "Notify Gamers Instantly",
+        title: "Keep Players Engaged",
         description:
-          "Send real-time updates about game launches, patch notes, and in-game events using WhatsApp. Keep players engaged with timely notifications and exclusive content.",
+          "Notify players instantly about in-game events, challenges, and special offers using WhatsApp. Real-time updates keep players active and interested in your game.",
         icon: "bi-controller",
         anime: "fade-right",
       },
       {
         id: 2,
         stepTitle: "Secure Logins",
-        title: "Enhance Security with OTPs",
+        title: "Protect Player Accounts",
         description:
-          "Provide gamers with secure login experiences using OTPs sent via WhatsApp or SMS. Protect accounts and sensitive information with reliable two-factor authentication.",
+          "Enhance security with OTPs sent via WhatsApp for account logins and transactions. Two-factor authentication ensures safe access to player accounts.",
         icon: "bi-shield-lock",
         anime: "fade-left",
       },
       {
         id: 3,
         stepTitle: "Interactive Campaigns",
-        title: "Boost Player Engagement with RCS",
+        title: "Run Engaging Promotions",
         description:
-          "Leverage RCS to deliver multimedia messages featuring game trailers, tutorials, and competitions. Use interactive buttons for seamless in-game purchases and event registrations.",
+          "Use WhatsApp campaigns to share game trailers, competitions, and exclusive offers. Interactive features make it easy for players to participate and stay engaged.",
         icon: "bi-chat-left-text",
         anime: "fade-right",
       },
       {
         id: 4,
-        stepTitle: "Personalized Gaming Experiences",
-        title: "Tailored Messaging for Players",
+        stepTitle: "Personalized Player Messaging",
+        title: "Build Loyalty with Tailored Messages",
         description:
-          "Send personalized game recommendations, updates, and rewards to players. Use WhatsApp and RCS to build loyalty by offering exclusive benefits and early access to content.",
+          "Send personalized rewards, updates, and exclusive content to players through WhatsApp. Build a deeper connection with your audience by catering to their preferences.",
         icon: "bi-person-video",
         anime: "fade-left",
       },
-    ],
+    ]
   };
   

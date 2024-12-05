@@ -1,45 +1,42 @@
 import React from "react";
-import travelImage from "../../image/Solutions/Travel1.png"; // Replace with your image path
+import mediaImage from "../../image/Solutions/Media.png"; // Replace with your image path
 
 const Home = () => {
   return (
-    <section className="py-5 bg2">
+    <section className="py-5 bg-light">
       <div className="container">
         <div className="row align-items-center aos">
           {/* Left Content */}
           <div className="col-md-6 para-color" data-aos="fade-right">
             <h1 className="fw-bold mb-4">
-              Elevate Tours & Travels with{" "}
-              <span className="text-primary">WhatsApp Solutions!</span>
+              Elevate <span className="text-primary">Media & Entertainment</span> with WhatsApp API!
             </h1>
-            <p className="">
-              Transform how you engage with travelers by leveraging WhatsApp's 
-              powerful messaging tools. Provide real-time updates, personalized 
-              itineraries, and instant support to make every trip unforgettable.
+            <p>
+              Engage audiences, promote events, and deliver rich media content seamlessly using our WhatsApp API solutions. Redefine the way you connect with your viewers and followers!
             </p>
             <ul className="list-unstyled mt-4 text-muted">
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
                 <span>
-                  Deliver instant travel itineraries, confirmations, and updates.
+                  Share breaking news, trending stories, and event updates in real-time.
                 </span>
               </li>
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
                 <span>
-                  Notify customers about booking changes, cancellations, or delays.
+                  Distribute trailers, music videos, and exclusive media content directly to your audience.
                 </span>
               </li>
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
                 <span>
-                  Use WhatsApp campaigns to promote holiday packages and offers.
+                  Promote shows and events with personalized messages and RSVP options.
                 </span>
               </li>
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
                 <span>
-                  Enhance customer satisfaction with AI-driven chat support for FAQs.
+                  Enhance audience engagement with polls, quizzes, and interactive campaigns.
                 </span>
               </li>
             </ul>
@@ -48,8 +45,8 @@ const Home = () => {
           {/* Right Image Section */}
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
-              src={travelImage}
-              alt="Tours and Travels Services"
+              src={mediaImage}
+              alt="Media & Entertainment Services"
               className="img-fluid rounded"
             />
           </div>

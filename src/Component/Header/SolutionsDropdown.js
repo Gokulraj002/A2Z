@@ -20,11 +20,11 @@ const SolutionsDropdown = () => {
   ];
 
   const byAdvertising = [
-    { name: "Food & Beverage", icon: "🍔", path: "/food-beverage" },
-    { name: "Retail and eCommerce", icon: "🛍️", path: "/retail-ecommerce" },
-    { name: "Media", icon: "🎥", path: "/media" },
-    { name: "Government", icon: "🏛️", path: "/government" },
-    { name: "Education", icon: "📚", path: "/education" },
+    { name: "Food & Beverage", icon: "🍔", path: "/food-beverage/" },
+    { name: "Retail and eCommerce", icon: "🛍️", path: "/retail-ecommerce/" },
+    { name: "Media & Entertainment", icon: "🎥", path: "/media-entertainment/" },
+    { name: "Government", icon: "🏛️", path: "/government/" },
+    { name: "Education", icon: "📚", path: "/education/" },
   
   ];
 

@@ -6,51 +6,41 @@ export const RealEstate = {
   title: "Real Estate Services",
   content: [
     {
-      title: "Streamline Sales with WhatsApp",
-      bg: 'bg-light',
+      title: "Transform Property Sales with WhatsApp Messaging",
+      bg: "bg-light",
       description: [
-        "Use WhatsApp to instantly share property details, brochures, and video tours with potential buyers.",
-        "Enable seamless two-way communication for inquiries, scheduling visits, and providing updates.",
-        "Send personalized property recommendations and offers directly to clients' phones.",
-        "Facilitate quick sales by allowing buyers to reserve properties or request more details through WhatsApp."
+        "Share property details, brochures, and virtual tours instantly with potential buyers through WhatsApp.",
+        "Allow clients to schedule property visits or consultations directly using interactive WhatsApp buttons.",
+        "Send personalized property recommendations and offers tailored to buyers’ preferences.",
+        "Facilitate real-time communication for inquiries, ensuring faster responses and better customer satisfaction."
       ],
-      image: Estate // Replace with the actual path
+      image: Estate, // Replace with the actual path
     },
     {
-      title: "Remarket Effectively with RCS",
-      bg: 'bg-white',
+      title: "Boost Engagement with WhatsApp Campaigns",
+      bg: "bg-white",
       description: [
-        "Leverage RCS to share rich media content like virtual property tours and high-quality images.",
-        "Run interactive remarketing campaigns with action buttons for booking appointments or exploring new listings.",
-        "Send follow-up messages to reconnect with potential buyers and reignite interest.",
-        "Enhance client engagement with branded, visually appealing property updates."
+        "Run targeted campaigns to promote new property launches or exclusive offers via WhatsApp.",
+        "Engage clients with templates featuring high-quality images, videos, and call-to-action buttons like 'Book a Visit' or 'Request Info'.",
+        "Follow up with interested buyers using automated reminder campaigns to increase conversions.",
+        "Track campaign performance with delivery and response analytics for improved remarketing efforts."
       ],
-      image: Estate // Replace with the actual path
+      image: Estate1, // Replace with the actual path
     },
     {
-      title: "Ensure Timely Reminders with Voice Call Solutions",
-      bg: 'bg-light',
+      title: "Strengthen Client Relationships with WhatsApp Notifications",
+      bg: "bg-light",
       description: [
-        "Send automated voice reminders for scheduled property visits or payment deadlines.",
-        "Use voice calls to provide personalized updates, ensuring clear and direct communication.",
-        "Follow up with potential buyers through professional, automated voice campaigns.",
-        "Notify clients of critical updates such as price changes or property availability."
+        "Send real-time updates on property availability, price changes, and new listings directly to clients.",
+        "Notify buyers about upcoming events such as open houses or virtual tours with automated WhatsApp messages.",
+        "Keep clients informed of important payment deadlines or document submissions through personalized notifications.",
+        "Build trust with transparent and consistent communication using WhatsApp’s secure messaging platform."
       ],
-      image: Estate1 // Replace with the actual path
+      image: Estate2, // Replace with the actual path
     },
-    {
-      title: "Build Long-Lasting Relationships with Multi-Channel Solutions",
-      bg: 'bg-white',
-      description: [
-        "Combine WhatsApp, RCS, and Voice Call to create a seamless customer journey.",
-        "Stay connected with buyers through personalized follow-ups and loyalty programs.",
-        "Use AI-driven chatbots on WhatsApp to handle inquiries 24/7, ensuring no lead is lost.",
-        "Establish trust with consistent, transparent, and professional communication."
-      ],
-      image: Estate2 // Replace with the actual path
-    }
-  ]
+  ],
 };
+
 
 
 
@@ -110,82 +100,82 @@ export const WhyChooseUs = {
 };
 
   
-  export const RealEstateFAQ = {
-    title: "Real Estate Services - FAQs",
-    faqs: [
-      {
-        id: 1,
-        question: "How can SMS benefit real estate businesses?",
-        answer:
-          "SMS is a powerful tool for real estate businesses to send property alerts, schedule visits, and engage with potential buyers. By using SMS, you can instantly notify prospects about new listings, price drops, or open house events. It also helps streamline communication by providing quick updates, reminders, and follow-ups, ensuring a seamless experience for both buyers and agents. This direct and immediate channel increases efficiency and enhances customer satisfaction."
-      },
-      {
-        id: 2,
-        question: "Can SMS be used for lead generation in real estate?",
-        answer:
-          "Yes, SMS is highly effective for lead generation in the real estate sector. You can capture leads from online ads, social media, or your website and immediately follow up with personalized messages. By integrating SMS with WhatsApp chatbots or CRMs, you can automate responses to inquiries and qualify leads faster. This ensures potential buyers receive the information they need instantly, increasing the chances of conversion."
-      },
-      {
-        id: 3,
-        question: "How does SMS help in scheduling property visits?",
-        answer:
-          "SMS allows real estate agents to schedule property visits efficiently by sending instant confirmations and reminders to clients. With automated SMS, you can reduce no-shows by reminding clients of their scheduled appointments and providing directions to the property. This ensures better time management for agents and enhances the overall client experience, making property visits hassle-free and organized."
-      },
-      {
-        id: 4,
-        question: "Is SMS effective for promoting real estate projects?",
-        answer:
-          "Absolutely. SMS campaigns are a cost-effective way to promote real estate projects to a targeted audience. You can share details about new developments, exclusive offers, and upcoming project launches. With rich media integration, you can include links to brochures, virtual tours, or booking forms, making it easy for clients to explore properties and take action immediately."
-      },
-      {
-        id: 5,
-        question: "How secure is SMS communication for real estate transactions?",
-        answer:
-          "SMS is a secure and reliable way to communicate critical information like payment reminders or booking confirmations. By using trusted SMS platforms, you can ensure data encryption and compliance with privacy regulations. Additionally, SMS can be integrated with two-factor authentication (2FA) for secure login and transaction processes, providing clients with peace of mind when handling sensitive information."
-      }
-    ]
-  };
-  
+export const RealEstateFAQ = {
+  title: "Real Estate Services - FAQs",
+  faqs: [
+    {
+      id: 1,
+      question: "How does WhatsApp enhance real estate marketing?",
+      answer:
+        "WhatsApp simplifies property marketing by enabling real-time communication with potential buyers. You can send property details, brochures, and virtual tours instantly, ensuring faster engagement. Its multimedia support allows sharing high-quality images and videos that make properties stand out. With quick reply options, you can handle inquiries efficiently and build stronger client relationships."
+    },
+    {
+      id: 2,
+      question: "What are the benefits of using WhatsApp templates for real estate?",
+      answer:
+        "WhatsApp templates allow you to send pre-approved messages for updates like property availability, booking confirmations, and payment reminders. These templates ensure consistency, compliance, and professionalism. For instance, a template with a virtual tour link or site visit booking button helps clients take action instantly, boosting conversions."
+    },
+    {
+      id: 3,
+      question: "How can WhatsApp campaigns help promote real estate projects?",
+      answer:
+        "WhatsApp campaigns enable targeted promotion by delivering property launches, exclusive offers, and project updates directly to buyers. With multimedia capabilities, campaigns can include images, videos, and links to booking forms, ensuring clients have all the information they need. This personalized and interactive approach increases interest and trust in your projects."
+    },
+    {
+      id: 4,
+      question: "How secure is WhatsApp for real estate communication?",
+      answer:
+        "WhatsApp provides end-to-end encryption, ensuring that all messages, documents, and transactions are secure. It’s an ideal platform for sharing sensitive information like booking details and payment confirmations. This level of security builds trust and reassures clients about the safety of their data."
+    },
+    {
+      id: 5,
+      question: "Can WhatsApp help with reminders and follow-ups?",
+      answer:
+        "Yes, WhatsApp is perfect for sending reminders for site visits, payment deadlines, or document submissions. Automated follow-ups through WhatsApp campaigns ensure no opportunity is missed, helping to nurture leads effectively. These reminders are delivered directly to clients’ phones, increasing the chances of timely responses."
+    }
+  ]
+};
 
-  export const RealEstateTimeline = {
-    title: "Revolutionize Real Estate with Messaging Solutions",
-    items: [
-      {
-        id: 1,
-        stepTitle: "Instant Property Updates",
-        title: "Real-Time Listings with WhatsApp",
-        description:
-          "Share property details, brochures, and virtual tours instantly via WhatsApp. Keep buyers informed about new listings, price changes, and exclusive offers, ensuring seamless communication.",
-        icon: "bi-building",
-        anime: "fade-right",
-      },
-      {
-        id: 2,
-        stepTitle: "Streamlined Transactions",
-        title: "Secure OTPs for Transactions",
-        description:
-          "Ensure safe and hassle-free transactions with one-time passwords (OTPs). Verify payments, agreements, and user logins effortlessly to build trust with clients.",
-        icon: "bi-lock-fill",
-        anime: "fade-left",
-      },
-      {
-        id: 3,
-        stepTitle: "Boosted Engagement",
-        title: "Engage Clients with RCS Messaging",
-        description:
-          "Use RCS to share high-quality images, videos, and interactive property tours. Leverage branded messaging with call-to-action buttons to schedule site visits and close deals faster.",
-        icon: "bi-chat-dots",
-        anime: "fade-right",
-      },
-      {
-        id: 4,
-        stepTitle: "Enhanced Client Relationships",
-        title: "Nurture Leads with Personalized Messaging",
-        description:
-          "Stay connected with potential buyers through tailored follow-ups. Use WhatsApp and RCS to share updates, offer property recommendations, and maintain long-term client relationships.",
-        icon: "bi-heart",
-        anime: "fade-left",
-      },
-    ],
-  };
-  
+
+export const RealEstateTimeline = {
+  title: "Revolutionize Real Estate with WhatsApp Solutions",
+  items: [
+    {
+      id: 1,
+      stepTitle: "Instant Property Updates",
+      title: "Share Listings Instantly with WhatsApp",
+      description:
+        "Send property brochures, videos, and details to clients directly through WhatsApp. Notify buyers about new listings, price updates, or open houses in real-time, keeping them informed and engaged.",
+      icon: "bi-building",
+      anime: "fade-right",
+    },
+    {
+      id: 2,
+      stepTitle: "Seamless Transactions",
+      title: "Secure Deals with OTP Services",
+      description:
+        "Use WhatsApp to send OTPs for payment confirmations, booking approvals, and document verification. Ensure secure and efficient transactions, building trust with clients throughout the process.",
+      icon: "bi-lock-fill",
+      anime: "fade-left",
+    },
+    {
+      id: 3,
+      stepTitle: "Effortless Lead Nurturing",
+      title: "Follow Up with Personalized WhatsApp Messaging",
+      description:
+        "Reengage potential buyers with tailored messages. Share property recommendations, schedule reminders, and send updates about upcoming opportunities to keep leads warm and engaged.",
+      icon: "bi-chat-left",
+      anime: "fade-right",
+    },
+    {
+      id: 4,
+      stepTitle: "Client Relationship Building",
+      title: "Maintain Long-Term Connections",
+      description:
+        "Use WhatsApp campaigns to send updates on property maintenance, new projects, or seasonal offers. Strengthen relationships by providing value beyond the initial sale, ensuring repeat business.",
+      icon: "bi-heart",
+      anime: "fade-left",
+    },
+  ],
+};
+

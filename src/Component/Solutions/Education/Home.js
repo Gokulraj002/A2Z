@@ -1,5 +1,5 @@
 import React from "react";
-import travelImage from "../../image/Solutions/Travel1.png"; // Replace with your image path
+import educationImage from "../../image/Solutions/education.png"; // Replace with your education-related image path
 
 const Home = () => {
   return (
@@ -9,47 +9,41 @@ const Home = () => {
           {/* Left Content */}
           <div className="col-md-6 para-color" data-aos="fade-right">
             <h1 className="fw-bold mb-4">
-              Elevate Tours & Travels with{" "}
-              <span className="text-primary">WhatsApp Solutions!</span>
+              Revolutionize Education with{" "}
+              <span className="text-primary">WhatsApp Solutions</span>
             </h1>
-            <p className="">
-              Transform how you engage with travelers by leveraging WhatsApp's 
-              powerful messaging tools. Provide real-time updates, personalized 
-              itineraries, and instant support to make every trip unforgettable.
+            <p className="text-muted">
+              Transform how educators, students, and parents connect with WhatsApp. 
+              Deliver instant updates, personalized learning resources, and seamless communication.
             </p>
-            <ul className="list-unstyled mt-4 text-muted">
+            <ul className="list-unstyled mt-4">
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                <span>
-                  Deliver instant travel itineraries, confirmations, and updates.
-                </span>
+                <span>Notify students about schedules, exams, and deadlines instantly.</span>
               </li>
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                <span>
-                  Notify customers about booking changes, cancellations, or delays.
-                </span>
+                <span>Send study materials, lecture links, and e-books directly to WhatsApp.</span>
               </li>
               <li className="d-flex align-items-start mb-3">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                <span>
-                  Use WhatsApp campaigns to promote holiday packages and offers.
-                </span>
+                <span>Provide secure access to portals using OTPs for authentication.</span>
               </li>
-              <li className="d-flex align-items-start mb-3">
+              <li className="d-flex align-items-start">
                 <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                <span>
-                  Enhance customer satisfaction with AI-driven chat support for FAQs.
-                </span>
+                <span>Streamline admissions with real-time updates and reminders.</span>
               </li>
             </ul>
+            <button className="btn btn-primary mt-4 px-4 py-2 fw-bold">
+              Learn More
+            </button>
           </div>
 
           {/* Right Image Section */}
           <div className="col-md-6 text-center aos" data-aos="fade-left">
             <img
-              src={travelImage}
-              alt="Tours and Travels Services"
+              src={educationImage}
+              alt="Education WhatsApp Services"
               className="img-fluid rounded"
             />
           </div>

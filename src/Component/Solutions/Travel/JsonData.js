@@ -6,35 +6,35 @@ export const ToursAndTravels = {
   title: "Tours and Travels Services",
   content: [
     {
-      title: "Enhance Customer Experience with WhatsApp Service",
+      title: "Simplify Travel Operations with WhatsApp",
       bg: "bg-light",
       description: [
-        "Provide instant booking confirmations and real-time itinerary updates via WhatsApp.",
-        "Send personalized travel offers, last-minute deals, and exclusive discounts directly to customers.",
-        "Simplify customer communication with AI-powered chatbots for inquiries, travel tips, and quick support.",
-        "Build customer loyalty by sending feedback forms and post-trip thank-you messages through WhatsApp.",
+        "Deliver instant booking confirmations, travel itineraries, and updates directly via WhatsApp.",
+        "Promote exclusive travel packages, last-minute offers, and loyalty rewards to boost bookings.",
+        "Enable two-way communication for customer inquiries, trip customization, and feedback collection.",
+        "Send automated reminders for payments, trip schedules, and travel documents to ensure a hassle-free experience.",
       ],
       image: Travel1, // Replace with the actual path
     },
     {
-      title: "Reach Travelers Faster with RCS Messaging",
+      title: "Enhance Customer Engagement with WhatsApp Campaigns",
       bg: "bg-white",
       description: [
-        "Showcase holiday packages with stunning images, videos, and carousels to inspire travelers.",
-        "Enable quick bookings with interactive call-to-action buttons for reservations and payments.",
-        "Send real-time alerts for flight changes, hotel updates, and travel advisories with branded messages.",
-        "Create engaging campaigns with rich media to promote seasonal offers and travel destinations.",
+        "Run targeted WhatsApp campaigns to highlight seasonal offers and special promotions.",
+        "Share personalized travel recommendations based on customer preferences and past trips.",
+        "Use multimedia messages with images, videos, and links to inspire and engage potential travelers.",
+        "Notify travelers about important updates like flight changes, hotel upgrades, or local alerts instantly.",
       ],
       image: Travel2, // Replace with the actual path
     },
     {
-      title: "Simplify Travel Planning with Smart Communication",
+      title: "Deliver Seamless Support with WhatsApp AI Chatbots",
       bg: "bg-light",
       description: [
-        "Automate reminders for trip schedules, payment deadlines, and travel document updates.",
-        "Provide 24/7 travel support through integrated chatbots on WhatsApp or RCS for hassle-free communication.",
-        "Engage customers with location-based recommendations for restaurants, attractions, and experiences.",
-        "Streamline group travel by sending itineraries and trip updates to all participants simultaneously.",
+        "Provide 24/7 assistance for FAQs, booking inquiries, and travel tips with AI-driven chatbots.",
+        "Streamline group travel planning by sharing itineraries and updates with all participants in one message.",
+        "Offer location-based recommendations for attractions, restaurants, and events during the trip.",
+        "Foster trust by delivering secure payment links and confirmations directly through WhatsApp.",
       ],
       image: Travel3, // Replace with the actual path
     },
@@ -89,80 +89,83 @@ export const WhyChooseTravel = {
       }
     ]
   };
-  export const TravelFAQ = {
-    title: "Tours and Travels Services - FAQs",
-    faqs: [
-      {
-        id: 1,
-        question: "How does WhatsApp help in travel communication?",
-        answer:
-          "WhatsApp simplifies travel communication by providing instant updates, confirmations, and reminders. Customers can inquire about packages, book trips, and get support directly via WhatsApp, ensuring a seamless experience."
-      },
-      {
-        id: 2,
-        question: "What is RCS messaging, and how does it benefit the travel industry?",
-        answer:
-          "RCS (Rich Communication Services) enhances customer engagement with media-rich messages like high-resolution images, videos, and carousels. It's ideal for sharing holiday packages, booking options, and real-time updates in an interactive and branded format."
-      },
-      {
-        id: 3,
-        question: "Can SMS and WhatsApp be used for group travel coordination?",
-        answer:
-          "Yes, both SMS and WhatsApp are effective for managing group travel. You can send updates on schedules, itineraries, and group reminders, ensuring everyone stays informed throughout the journey."
-      },
-      {
-        id: 4,
-        question: "How secure are WhatsApp and RCS for travel payments?",
-        answer:
-          "Both platforms ensure secure payment notifications and booking confirmations. With encryption and verified sender options, they provide customers with safe and reliable communication for transactions."
-      },
-      {
-        id: 5,
-        question: "How can automated messages improve travel services?",
-        answer:
-          "Automated messages save time and improve customer experience by sending instant booking confirmations, trip reminders, and follow-ups. This ensures consistent communication and reduces manual intervention."
-      }
-    ]
-  };
 
 
-  export const TravelTimeline = {
-  title: "Enhance Travel Experience with WhatsApp",
+ export const TravelFAQ = {
+  title: "Tours and Travels Services - FAQs",
+  faqs: [
+    {
+      id: 1,
+      question: "How does WhatsApp enhance travel bookings?",
+      answer:
+        "WhatsApp provides a direct channel for instant bookings and confirmations. Customers can access personalized itineraries, receive payment links, and get quick responses to their queries in real time."
+    },
+    {
+      id: 2,
+      question: "Can WhatsApp help with group travel coordination?",
+      answer:
+        "Yes, WhatsApp simplifies group travel by allowing agencies to share itineraries, reminders, and real-time updates in a single message. This ensures smooth communication and better trip management."
+    },
+    {
+      id: 3,
+      question: "How secure is WhatsApp for sharing travel information?",
+      answer:
+        "WhatsApp ensures secure communication with end-to-end encryption. It’s ideal for sending booking details, payment confirmations, and confidential updates without compromising data safety."
+    },
+    {
+      id: 4,
+      question: "What role do WhatsApp campaigns play in travel sales?",
+      answer:
+        "WhatsApp campaigns allow agencies to send targeted promotional offers, last-minute deals, and personalized recommendations. This boosts customer engagement and drives more bookings effectively."
+    },
+    {
+      id: 5,
+      question: "How do automated WhatsApp messages improve customer experience?",
+      answer:
+        "Automated messages streamline communication by sending instant confirmations, trip reminders, and post-trip feedback requests. This reduces manual effort and ensures consistent customer interaction."
+    }
+  ]
+};
+
+
+
+export const TravelTimeline = {
+  title: "Transform Travel Services with WhatsApp",
   items: [
     {
       id: 1,
-      stepTitle: "Seamless Bookings",
-      title: "Simplify Travel Reservations",
+      stepTitle: "Quick Reservations",
+      title: "Streamline Travel Bookings",
       description:
-        "Enable instant bookings with WhatsApp and RCS messaging. Provide customers with automated confirmations, itinerary details, and updates, ensuring a hassle-free travel experience.",
-      icon: "bi-calendar-check",
+        "Use WhatsApp to confirm bookings instantly and share complete itineraries with customers. Provide hassle-free access to trip details and real-time updates in one convenient platform.",
+      icon: "bi-calendar2-check",
       anime: "fade-right",
     },
     {
       id: 2,
-      stepTitle: "Boosting Sales",
-      title: "Increase Travel Sales with Personalization",
+      stepTitle: "Targeted Promotions",
+      title: "Boost Sales with Personalized Campaigns",
       description:
-        "Promote exclusive travel packages and seasonal offers using personalized WhatsApp campaigns. Leverage rich RCS messages with videos, images, and interactive buttons to drive bookings.",
-      icon: "bi-graph-up-arrow",
+        "Promote travel deals and holiday packages using tailored WhatsApp campaigns. Engage customers with multimedia-rich messages, exclusive discounts, and interactive booking options.",
+      icon: "bi-megaphone",
       anime: "fade-left",
     },
     {
       id: 3,
-      stepTitle: "24/7 Travel Assistance",
-      title: "Deliver Round-the-Clock Support",
+      stepTitle: "24/7 Customer Care",
+      title: "Enhance Support with AI Chatbots",
       description:
-        "Enhance customer experience with AI-powered chatbots on WhatsApp and RCS. Provide real-time answers to travel-related queries, including visa requirements, local attractions, and emergency support.",
-      icon: "bi-headset",
+        "Provide round-the-clock assistance through WhatsApp chatbots. Address customer queries instantly about destinations, flights, or local attractions to improve overall satisfaction.",
+      icon: "bi-chat-dots",
       anime: "fade-right",
     },
     {
       id: 4,
-      stepTitle: "Enhanced Customer Relationships",
-      title: "Foster Customer Loyalty",
+      stepTitle: "Build Customer Loyalty",
+      title: "Retain Customers with Follow-Ups",
       description:
-        "Send personalized post-trip messages, feedback requests, and exclusive offers. Keep customers engaged through timely follow-ups and travel recommendations, creating lasting connections.",
-      icon: "bi-people",
+        "Send post-trip thank-you messages, feedback requests, and personalized offers for future travel. Use WhatsApp to stay connected and build long-term relationships with your clients.",
+      icon: "bi-heart-fill",
       anime: "fade-left",
     },
   ],

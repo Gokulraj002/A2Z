@@ -23,7 +23,7 @@ const SocialMedia = () => {
       <h2 className="fw-bold mb-3">
         Let&apos;s Get <span style={{ color: "#FF8C00" }}>Social!</span>
       </h2>
-      <p className="text-muted mb-4">Connect with us on Social Media</p>
+      <p className="text-muted mb-4 para-color">Connect with us on Social Media</p>
 
       {/* Social Media Icons and Counts */}
       <div className="row justify-content-center" data-aos='zoom-in-up'>

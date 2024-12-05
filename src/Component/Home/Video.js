@@ -2,9 +2,8 @@ import React from 'react';
 import video from './Images/video.mp4';
 import {Link} from 'react-router-dom';
 import './home.css';
-import Image1 from "../image/ping4sms-client6.webp";
-import Image2 from "../image/ping4sms-client7.webp";
-import Image3 from "../image/ping4sms-client5.webp";
+import Image1 from "../image/Groavy.png";
+import Image2 from "../image/saishishirtours.png";
 import Image4 from "../image/ping4sms-client1.webp";
 import Image5 from "../image/ping4sms-client7.webp";
 // import Image6 from "../image/ping4sms-client8.webp";
@@ -50,10 +49,9 @@ const Video = () => {
 
    <div className='container'>
        <div className=" bottom-logos text-center mt-5">
-         <div className="dflex ">
+         <div className="dflex " style={{justifyContent:'space-around'}}>
            <img src={Image1} alt="Zerodha" className="ms-2 logo-img" />
            <img src={Image2} alt="Swiggy" className="m-2 logo-img" />
-           <img src={Image3} alt="HDFC Bank" className="mx-2 logo-img" />
            <img src={Image4} alt="Flipkart" className="m-2 logo-img" />
            <img src={Image5} alt="Dunzo" className="me-2 logo-img" />
            {/* <img src={Image6} alt="Dunzo" className="m-2 logo-img" /> */}

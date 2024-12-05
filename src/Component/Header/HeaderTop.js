@@ -1,5 +1,4 @@
 import React from 'react';
-import Google from '../image/brand/booking.png'
 
 const HeaderTop = () => {
   return (
@@ -9,8 +8,8 @@ const HeaderTop = () => {
           {/* Left Section */}
           <div className="d-flex align-items-center text-white">
             <small>
-              Talk To Sales: <img src={Google} alt="flag" className="mx-2 w-25" />
-              <small>+91- 9025026409</small>
+              Talk To Sales : 
+              <small> +91- 9025026409</small>
             </small>
           </div>
 

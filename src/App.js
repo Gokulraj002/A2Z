@@ -27,6 +27,10 @@ import Gaming from "./Component/Solutions/Gaming/Gaming";
 import Travel from "./Component/Solutions/Travel/Travel";
 import HealthCare from "./Component/Solutions/HealthCare/HealthCare";
 import Food from "./Component/Solutions/Food/Food";
+import WebsiteChecklist from "./checklistData";
+import Retail from "./Component/Solutions/Retail/Retail";
+import Media from "./Component/Solutions/Media/Media";
+import Government from "./Component/Solutions/Government/Government";
 
 function App() {
   useEffect(() => {
@@ -59,10 +63,14 @@ function App() {
           <Route path='faq/' element={<MainFaq/>} />
           <Route path="real-estate/" element={<RealEstate/>} />
           <Route path="gaming/" element={<Gaming/>} />
-          <Route path="tours-travel" element={<Travel/>} />
-          <Route path="health-care" element={<HealthCare/>} />
-          <Route path="food-beverage" element={<Food/>} />
+          <Route path="tours-travel/" element={<Travel/>} />
+          <Route path="health-care/" element={<HealthCare/>} />
+          <Route path="food-beverage/" element={<Food/>} />
+          <Route path="retail-ecommerce/" element={<Retail/>} />
+          <Route path="media-entertainment/" element={<Media/>} />
+          <Route path="government/" element={<Government/>} />
           <Route path='*' element={<NoPage/>} />
+          <Route path="checklist/" element={<WebsiteChecklist/>}/>
          </Route>
       </Routes>
     </BrowserRouter>
