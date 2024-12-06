@@ -31,6 +31,7 @@ import WebsiteChecklist from "./checklistData";
 import Retail from "./Component/Solutions/Retail/Retail";
 import Media from "./Component/Solutions/Media/Media";
 import Government from "./Component/Solutions/Government/Government";
+import Education from "./Component/Solutions/Education/Education";
 
 function App() {
   useEffect(() => {
@@ -69,6 +70,7 @@ function App() {
           <Route path="retail-ecommerce/" element={<Retail/>} />
           <Route path="media-entertainment/" element={<Media/>} />
           <Route path="government/" element={<Government/>} />
+          <Route path="education/" element={<Education/>} />
           <Route path='*' element={<NoPage/>} />
           <Route path="checklist/" element={<WebsiteChecklist/>}/>
          </Route>

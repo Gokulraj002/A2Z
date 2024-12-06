@@ -6,41 +6,53 @@ const Content = () => {
   const servicesData = [
     {
       title: "WhatsApp Service",
-      description: "Communicate with customers through rich and interactive WhatsApp messages. Send updates, reminders, and promotions seamlessly.",
+      description:
+        "Leverage the power of WhatsApp to deliver personalized and interactive communication. Share updates, send reminders, and promote your services effortlessly, all while engaging with customers on their favorite platform.",
       link: "/whatsapp-api",
       icon: "bi bi-whatsapp",
+      animation: "zoom-in-right"
     },
     {
       title: "RCS Service",
-      description: "Create engaging experiences with rich media messages, including images, videos, and interactive buttons for better engagement.",
+      description:
+        "Elevate your customer engagement with visually stunning RCS messages. Share high-quality images, captivating videos, and interactive buttons for an immersive messaging experience that boosts conversions.",
       link: "/rcs-sms",
       icon: "bi bi-layout-text-sidebar-reverse",
+      animation: "zoom-in-right"
     },
     {
       title: "Bulk SMS",
-      description: "Deliver targeted promotional messages instantly with offers and campaigns tailored to customer needs.",
+      description:
+        "Reach your audience instantly with targeted promotional messages. Share offers, announcements, and campaigns that are tailored to customer needs, ensuring high engagement and quick responses.",
       link: "/bulk-sms",
       icon: "bi bi-megaphone-fill",
+      animation: "zoom-in-left"
     },
     {
       title: "Bulk Voice Call",
-      description: "Use voice call services to send updates and reminders. Add a personal touch to communication with voice interactions.",
+      description:
+        "Add a human touch to your messaging with bulk voice calls. Deliver reminders, updates, or personalized offers through interactive voice communication that resonates with your audience.",
       link: "/voice-call",
       icon: "bi bi-telephone-fill",
-    },
+      animation: "zoom-in-left"
+    }
   ];
 
   return (
     <div className="bg2">
       <div className="container py-5 para-color">
-        <div className="row align-items-center gy-4 text-muted aos">
+        <div className="row align-items-center gy-5 text-muted aos">
           {/* Left Section */}
           <div className="col-md-4 px-md-3">
             <ul className="list-unstyled">
               {servicesData.slice(0, 2).map((service, index) => (
-                <li key={index} className="mb-4 d-flex align-items-start">
+                <li
+                  key={index}
+                  className="mb-4 d-flex align-items-start"
+                  data-aos={service.animation}
+                >
                   <i className={`${service.icon} display-6 iconcolor me-3`}></i>
-                  <div>
+                  <div className="pb-4">
                     <h5 className="fw-bold">{service.title}</h5>
                     <p>{service.description}</p>
                     <Link to={service.link} className="fw-bold">
@@ -53,12 +65,11 @@ const Content = () => {
           </div>
 
           {/* Center Section */}
-          <div className="col-md-4 text-center px-md-3">
+          <div className="col-md-4 text-center px-md-3" data-aos="zoom-in-up">
             <img
               src={content}
               alt="Service Overview"
               className="w-75 rounded"
-              data-aos="zoom-in-up"
             />
           </div>
 
@@ -66,9 +77,13 @@ const Content = () => {
           <div className="col-md-4 px-md-3">
             <ul className="list-unstyled">
               {servicesData.slice(2).map((service, index) => (
-                <li key={index} className="mb-4 d-flex align-items-start">
+                <li
+                  key={index}
+                  className="mb-4 d-flex align-items-start"
+                  data-aos={service.animation}
+                >
                   <i className={`${service.icon} display-6 iconcolor me-3`}></i>
-                  <div>
+                  <div className="pb-4">
                     <h5 className="fw-bold">{service.title}</h5>
                     <p>{service.description}</p>
                     <Link to={service.link} className="fw-bold">

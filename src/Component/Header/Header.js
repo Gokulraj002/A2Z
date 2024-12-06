@@ -168,13 +168,13 @@ const Header = () => {
                 <div className="btn-header  gap-3 ">
                   <Link
                     to="/try-for-free/"
-                    className="btn btn-primary px-4 buton fw-bold"
+                    className="btn btn-primary px-4 buton fw-bold pt-2"
                   >
                     Try For Free
                   </Link>
                   <Link
                     to="/request-demo/"
-                    className="btn btn-outline-primary px-4 buton fw-bold"
+                    className="btn btn-outline-primary px-4 buton fw-bold pt-2"
                   >
                     Request Demo
                   </Link>

@@ -1,5 +1,5 @@
 import React from "react";
-import governmentImage from "../../image/Solutions/Ecommerce.png"; // Replace with your government-related image path
+import governmentImage from "../../image/Solutions/Government.png"; // Replace with your government-related image path
 
 const Home = () => {
   return (

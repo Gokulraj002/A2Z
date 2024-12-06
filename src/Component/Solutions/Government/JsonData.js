@@ -1,6 +1,6 @@
-import Government1 from '../../image/Solutions/Care1.png';
-import Government2 from '../../image/Solutions/Care2.png';
-import Government3 from '../../image/Solutions/Care3.png';
+import Government1 from '../../image/Solutions/Government1.png';
+import Government2 from '../../image/Solutions/Government2.png';
+import Government3 from '../../image/Solutions/Government3.png';
 
 export const GovernmentMessagingServices = {
   title: "Government Communication Services",

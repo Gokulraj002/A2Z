@@ -1,5 +1,5 @@
 import React from "react";
-import educationImage from "../../image/Solutions/education.png"; // Replace with your education-related image path
+import educationImage from "../../image/Solutions/Education.png"; // Replace with your education-related image path
 
 const Home = () => {
   return (
