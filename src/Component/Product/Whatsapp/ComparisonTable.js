@@ -1,8 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
-import Try from "../../image/Whatsappp.png";
-import Try1 from "../../image/Whats.png";
+import Try from "../../image/product/Whatsapp2.png";
+// import Try1 from "../../image/Whats.png";
 
 // JSON Data
 const tableData = {
@@ -165,20 +165,18 @@ const ComparisonTable = () => {
       </div>
 
       {/* API Template Section */}
-      <div className="container-fluid bg1 pt-5">
-        <div className="row aos">
-          <h2 className="head1 text-center mb-4">Explore Our WhatsApp API Template</h2>
-
-          <div className="col-12 col-md-6" data-aos="zoom-in">
-            <img src={Try} alt="WhatsApp Template" className="img-fluid" />
-          </div>
-          <div className="col-12 col-md-6 d-grid" data-aos="zoom-in">
-            <div className="place-center">
-              <img src={Try1} alt="API Template" className="img-fluid" />
-            </div>
-          </div>
-        </div>
-      </div>
+     <div className="bg-light">
+       <div className="container pt-5">
+         <div className="row aos">
+           <h2 className="head1 text-center mb-4">Explore Our WhatsApp API Template</h2>
+      
+           <div className="col-12" data-aos="zoom-in">
+             <img src={Try} alt="WhatsApp Template" className="img-fluid" />
+           </div>
+           
+         </div>
+       </div>
+     </div>
     </>
   );
 };

@@ -1,79 +1,59 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons"; // Import the FontAwesome check icon
-import whatsapp from "../../image/whats1.png"; // Replace with your actual image path
+import whatsappImage from "../../image/product/Whatsapp.png"; // Replace with your WhatsApp-related image path
 
-const Home = () => {
+const WhatsAppSolutions = () => {
   return (
-    <div className="container py-5">
-      <div className="row align-items-center aos">
-        {/* Left Content */}
-        <div className="col-md-6 mt-2" data-aos="fade-down-right" >
-          <h1 className="fw-bold mb-3">
-            Build Your Business with <br /> 
-            <span className="text-info">WhatsApp Business API</span>
-          </h1>
-          <hr className="text-success mb-4" style={{ width: "120px", height: "3px" }} />
-          <ul className="list-unstyled para-color">
-            <li className="mb-3 d-flex align-items-center">
-              <FontAwesomeIcon
-                icon={faCheckCircle}
-                className="text-success me-3"
-                
-              />
-              <span >Send bulk messages.</span>
-            </li>
-            <li className="mb-3 d-flex align-items-center">
-              <FontAwesomeIcon
-                icon={faCheckCircle}
-                className="text-success me-3"
-                
-              />
-              <span >Get a verified green tick.</span>
-            </li>
-            <li className="mb-3 d-flex align-items-center">
-              <FontAwesomeIcon
-                icon={faCheckCircle}
-                className="text-success me-3"
-                
-              />
-              <span >Increase your messaging limit.</span>
-            </li>
-            <li className="mb-3 d-flex align-items-center">
-              <FontAwesomeIcon
-                icon={faCheckCircle}
-                className="text-success me-3"
-                
-              />
-              <span >Setup bulk automated notifications.</span>
-            </li>
-            <li className="mb-3 d-flex align-items-center">
-              <FontAwesomeIcon
-                icon={faCheckCircle}
-                className="text-success me-3"
-                
-              />
-              <span >Showcase product catalogs & get payment.</span>
-            </li>
-          </ul>
-          {/* <button className="btn btn-primary rounded-0 btn-lg mt-4">
-            Sign Up for WhatsApp Business API Trial Now
-          </button> */}
-        </div>
+    <section className="py-5 bg-light">
+      <div className="container">
+        <div className="row align-items-center aos">
+          {/* Left Content */}
+          <div className="col-md-6 para-color" data-aos="fade-right">
+            <h1 className="fw-bold mb-4">
+              Elevate Your Business with{" "}
+              <span className="text-primary">Cloud WhatsApp API</span>
+            </h1>
+            <p className="text-muted">
+              Transform how your business communicates with customers by leveraging our Cloud WhatsApp API. Achieve seamless engagement, automation, and scalability, all through a trusted platform.
+            </p>
+            <ul className="list-unstyled mt-4">
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Automate customer support with intelligent chatbots.</span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Send personalized messages at scale with templates.</span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Provide secure and instant OTP verification services.</span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Deliver real-time notifications for orders and updates.</span>
+              </li>
+              <li className="d-flex align-items-start">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>Integrate seamlessly with CRMs for unified workflows.</span>
+              </li>
+            </ul>
+            <button className="btn btn-primary mt-4 px-4 py-2 fw-bold">
+              Get Started
+            </button>
+          </div>
 
-        {/* Right Image */}
-        <div className="col-md-6 text-center mt-5" data-aos="fade-down-left">
-          <img
-            src={whatsapp}
-            alt="WhatsApp Business API "
-            className=" w-100"
-         
-           
-          />
+          {/* Right Image Section */}
+          <div className="col-md-6 text-center aos" data-aos="fade-left">
+            <img
+              src={whatsappImage}
+              alt="Cloud WhatsApp API Services"
+              className="img-fluid rounded"
+            />
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Home;
+export default WhatsAppSolutions;

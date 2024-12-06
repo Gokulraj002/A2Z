@@ -1,5 +1,5 @@
 import React from "react";
-import exampleImage from "../../image/sms.png"; // Replace with the actual image path
+import exampleImage from "../../image/product/Whatsapp1.png"; // Replace with the actual image path
 
 // JSON Data for Steps
 const stepsData = [
@@ -32,7 +32,7 @@ const stepsData = [
   
 const StepsSection = () => {
   return (
-   <div className="bg2 py-5 text-dark ">
+   <div className="bg-light py-5 text-dark ">
      <div className="container aos " >
        <div className="row align-items-center">
          {/* Image Section */}
