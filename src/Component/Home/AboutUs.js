@@ -8,51 +8,60 @@ const AboutUs = () => {
       <div className="container py-5">
         <div className="row align-items-center para-color aos">
           {/* Left Section */}
-          <div className="col-12 col-md-6 " data-aos="zoom-in-right">
+          <div className="col-12 col-md-6" data-aos="zoom-in-right">
             <h6 className="text-primary text-uppercase fw-bold">
               More About Us
             </h6>
             <h2 className="fw-bold mb-4">
-              Empowering Businesses with{" "}
-              <span className="text-primary">WhatsApp Communication</span>
+              Transform Customer Relationships with{" "}
+              <span className="text-primary">WhatsApp CRM Integration</span>
             </h2>
             <p className="align">
-              Transform the way you connect with customers using WhatsApp. From
-              real-time updates to personalized promotions, we help your
-              business stay ahead with seamless and interactive communication
-              solutions.
+              Elevate your customer experience by integrating WhatsApp with CRM
+              systems. Automate responses, streamline lead management, and
+              build stronger relationships with real-time communication
+              features designed for modern businesses.
             </p>
             <ul className="list-unstyled">
               <div className="row">
                 <div className="col-md-6">
-                  <li className="mb-2 d-flex ">
-                    <i className="bi bi-check-circle-fill text-primary me-2"></i>
-                    <span>Enhance engagement with WhatsApp messaging.</span>
-                  </li>
-                  <li className="mb-2 d-flex ">
+                  <li className="mb-2 d-flex">
                     <i className="bi bi-check-circle-fill text-primary me-2"></i>
                     <span>
-                      Send personalized bulk SMS instantly and securely.
+                    Sync WhatsApp with your CRM for seamless communication.
                     </span>
                   </li>
-
-                  <li className="mb-2 d-flex ">
+                  <li className="mb-2 d-flex">
                     <i className="bi bi-check-circle-fill text-primary me-2"></i>
-                    <span>Deliver real-time transactional updates.</span>
+                    <span>
+                    Automate replies with AI-powered templates.
+                    </span>
+                  </li>
+                  <li className="mb-2 d-flex">
+                    <i className="bi bi-check-circle-fill text-primary me-2"></i>
+                    <span>
+                    Manage leads efficiently with real-time updates.
+                    </span>
                   </li>
                 </div>
                 <div className="col-md-6">
-                  <li className="mb-2 d-flex ">
+                  <li className="mb-2 d-flex">
                     <i className="bi bi-check-circle-fill text-primary me-2"></i>
-                    <span>Secure transactions with instant OTPs.</span>
+                    <span>
+                    Automate follow-ups based on customer behavior.
+                    </span>
                   </li>
-                  <li className="mb-2 d-flex ">
+                  <li className="mb-2 d-flex">
                     <i className="bi bi-check-circle-fill text-primary me-2"></i>
-                    <span>Personalize with voice call services.</span>
+                    <span>
+                    Streamline workflows for messages and notifications.
+                    </span>
                   </li>
-                  <li className="mb-2 d-flex ">
+                  <li className="mb-2 d-flex">
                     <i className="bi bi-check-circle-fill text-primary me-2"></i>
-                    <span>Leverage RCS for multimedia experiences.</span>
+                    <span>
+                    Build loyalty with personalized interactions.
+                    </span>
                   </li>
                 </div>
               </div>
@@ -67,7 +76,7 @@ const AboutUs = () => {
           </div>
 
           {/* Right Section */}
-          <div className=" col-12 col-md-6 text-center" data-aos="zoom-in-left">
+          <div className="col-12 col-md-6 text-center" data-aos="zoom-in-left">
             <div>
               <img
                 src={office}

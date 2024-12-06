@@ -1,7 +1,7 @@
 import React from "react";
-import transactionalImage from "../../image/sms12.png"; // Replace with your transactional image path
-import promotionalImage from "../../image/sms11.png"; // Replace with your promotional image path
-import otpImage from "../../image/otp.png"; // Replace with your OTP image path
+import transactionalImage from "../../image/product/Transactional.png"; // Replace with your transactional image path
+import promotionalImage from "../../image/product/Promotional.png"; // Replace with your promotional image path
+import otpImage from "../../image/product/Otp.png"; // Replace with your OTP image path
 
 const BulkSmsHome = () => {
   return (
@@ -15,46 +15,57 @@ const BulkSmsHome = () => {
         }}
       >
         <div className="container para-color aos">
-          <div className="row align-items-center">
+          <div className="row align-items-center aos">
             {/* Left Content */}
-            <div className="col-md-6" data-aos="fade-right">
-              <h2 className=" fw-bold">
+            <div className="col-md-6 para-color" data-aos="fade-right">
+              <h1 className="fw-bold mb-4">
                 Empower Your Business with{" "}
-                <span className="text-primary">Transactional SMS</span>
-              </h2>
-              <p className="text-muted mb-4">
-                Transactional SMS are used for sending important alerts,
-                notifications, and transactional updates to customers. They are
-                delivered instantly, even to DND (Do Not Disturb) numbers,
-                ensuring critical information reaches the recipient on time.
+                <span className="text-primary">Transactional SMS</span>{" "}
+                Solutions!
+              </h1>
+              <p>
+                Deliver crucial updates, build customer trust, and enhance user
+                engagement with our reliable transactional SMS services. Keep
+                your audience informed, anywhere and anytime!
               </p>
-              <ul className="list-unstyled para-color">
-                <li className="mb-2 d-flex align-items-center">
+              <ul className="list-unstyled mt-4 text-muted">
+                <li className="d-flex align-items-start mb-3">
                   <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>Deliver to Non-DND Numbers</span>
+                  <span>
+                    Send instant OTPs, alerts, and notifications with 99.9%
+                    delivery rates.
+                  </span>
                 </li>
-                <li className="mb-2 d-flex align-items-center">
+                <li className="d-flex align-items-start mb-3">
                   <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span> Instant Delivery 24x7</span>
+                  <span>
+                    Ensure customer satisfaction with timely updates on orders
+                    and payments.
+                  </span>
                 </li>
-                <li className="mb-2 d-flex align-items-center">
+                <li className="d-flex align-items-start mb-3">
                   <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>Customized Sender ID</span>
+                  <span>
+                    Enable secure communications for banking and financial
+                    transactions.
+                  </span>
                 </li>
-                <li className="mb-2 d-flex align-items-center">
+                <li className="d-flex align-items-start mb-3">
                   <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span> Transactional Alerts and OTPs</span>
+                  <span>
+                    Automate appointment reminders, confirmations, and
+                    cancellations.
+                  </span>
                 </li>
               </ul>
-              
             </div>
 
             {/* Right Image Section */}
-            <div className="col-md-6 text-center" data-aos="fade-left">
+            <div className="col-md-6 text-center aos" data-aos="fade-left">
               <img
                 src={transactionalImage}
-                alt="Transactional SMS"
-                className="w-100"
+                alt="Transactional SMS Services"
+                className="img-fluid rounded"
               />
             </div>
           </div>
@@ -69,50 +80,57 @@ const BulkSmsHome = () => {
         }}
       >
         <div className="container para-color">
-          <div className="row align-items-center">
-            {/* Right Image Section */}
-            <div className="col-md-6 text-center" data-aos="fade-right">
-              <img
-                src={promotionalImage}
-                alt="Promotional SMS"
-                className="w-100"
-              />
-            </div>
+        <div className="row align-items-center aos">
+          {/* Left Content */}
 
-            {/* Left Content */}
-            <div className="col-md-6" data-aos="fade-left">
-              <h2 className=" fw-bold">
-                Transform Your Reach with{" "}
-                <span className="text-primary">Promotional SMS</span>
-              </h2>
-
-              <p className="text-muted mb-4">
-                Promote your business effectively by sending bulk promotional
-                messages to your audience. Whether it's a flash sale, discount
-                offer, or event promotion, promotional SMS ensures your message
-                gets delivered quickly and effectively to non-DND numbers.
-              </p>
-              <ul className="list-unstyled para-color">
-                <li className="mb-2 d-flex align-items-center">
-                  <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>Deliver to Non-DND Numbers</span>
-                </li>
-                <li className="mb-2 d-flex align-items-center">
-                  <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>Schedule Messages</span>
-                </li>
-                <li className="mb-2 d-flex align-items-center">
-                  <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>160 Characters per SMS</span>
-                </li>
-                <li className="mb-2 d-flex align-items-center">
-                  <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>Cost-Effective Marketing</span>
-                </li>
-              </ul>
-              
-            </div>
+          <div className="col-md-6 text-center aos" data-aos="fade-left">
+            <img
+              src={promotionalImage}
+              alt="Promotional SMS Services"
+              className="img-fluid rounded"
+            />
           </div>
+          {/* {right Content} */}
+          <div className="col-md-6 para-color" data-aos="fade-right">
+            <h1 className="fw-bold mb-4">
+              Boost Your Sales with <span className="text-primary">Promotional SMS</span> Campaigns!
+            </h1>
+            <p>
+              Drive customer engagement, increase brand visibility, and maximize 
+              conversions with our effective promotional SMS solutions. Deliver 
+              targeted campaigns directly to your audience!
+            </p>
+            <ul className="list-unstyled mt-4 text-muted">
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>
+                  Send bulk SMS campaigns to promote products, offers, and discounts.
+                </span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>
+                  Target specific customer segments with personalized messages.
+                </span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>
+                  Boost engagement with clickable links and call-to-actions.
+                </span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>
+                  Track campaign performance with real-time analytics.
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Right Image Section */}
+          
+        </div>
         </div>
       </section>
 
@@ -125,45 +143,54 @@ const BulkSmsHome = () => {
         }}
       >
         <div className="container para-color">
-          <div className="row align-items-center">
-            {/* Left Content */}
-            <div className="col-md-6" data-aos="fade-right">
-              <h2 className="fw-bold">
-                Secure Your Business with <br></br>
-                <span className="text-primary">OTP SMS Services</span>
-              </h2>
-
-              <p className="text-muted mb-4">
-                OTP SMS services ensure secure verification and authentication
-                for your users during transactions, logins, or password
-                recovery. Delivered within seconds, OTPs provide a robust layer
-                of security for critical processes.
-              </p>
-              <ul className="list-unstyled para-color">
-                <li className="mb-2 d-flex align-items-center">
-                  <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>Instant Delivery within 3 Seconds</span>
-                </li>
-                <li className="mb-2 d-flex align-items-center">
-                  <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>DND & Non-DND Numbers</span>
-                </li>
-                <li className="mb-2 d-flex align-items-center">
-                  <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>Retry Mechanism</span>
-                </li>
-                <li className="mb-2 d-flex align-items-center">
-                  <i className="bi bi-check-circle-fill text-primary me-3"></i>
-                  <span>High Priority Route</span>
-                </li>
-              </ul>
-            </div>
-
-            {/* Right Image Section */}
-            <div className="col-md-6 text-center" data-aos="fade-left">
-              <img src={otpImage} alt="OTP SMS Services" className="w-100" />
-            </div>
+        <div className="row align-items-center aos">
+          {/* Left Content */}
+          <div className="col-md-6 para-color" data-aos="fade-right">
+            <h1 className="fw-bold mb-4">
+              Secure Your Business with <span className="text-primary">OTP SMS</span> Solutions!
+            </h1>
+            <p>
+              Provide secure, real-time authentication and enhance user trust with 
+              our reliable OTP SMS services. Simplify verification and ensure 
+              data security for your users.
+            </p>
+            <ul className="list-unstyled mt-4 text-muted">
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>
+                  Send one-time passwords instantly for login and transaction verification.
+                </span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>
+                  Ensure data security with encrypted and reliable OTP delivery.
+                </span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>
+                  Provide seamless two-factor authentication for enhanced account safety.
+                </span>
+              </li>
+              <li className="d-flex align-items-start mb-3">
+                <i className="bi bi-check-circle-fill text-primary me-3"></i>
+                <span>
+                  Integrate easily with APIs for instant OTP generation and delivery.
+                </span>
+              </li>
+            </ul>
           </div>
+
+          {/* Right Image Section */}
+          <div className="col-md-6 text-center aos" data-aos="fade-left">
+            <img
+              src={otpImage}
+              alt="OTP SMS Services"
+              className="img-fluid rounded"
+            />
+          </div>
+        </div>
         </div>
       </section>
     </>

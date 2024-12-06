@@ -18,12 +18,10 @@ const BulkSms = () => {
   return (
     <div>
       {/* <img src={Banner}  width={'100%'} alt='Bulk sms banner'/> */}
-    
-
       <Services/>
-    <Client/>
-    <PricingTabs/>
-    <Reviews/>
+      <Client/>
+      <PricingTabs/>
+      <Reviews/>
       <BulkSmsHome/>
       <SocialMedia/>
       {/* <Home/> */}

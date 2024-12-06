@@ -4,7 +4,7 @@ import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
 
 const Details = () => {
   return (
-   <div className="bg2">
+   <div className="bg-light">
      <div className="container py-5 ">
        <div className="row para-color1 aos">
          {/* Content Section */}
