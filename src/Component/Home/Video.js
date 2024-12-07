@@ -1,5 +1,5 @@
 import React from 'react';
-import video from './Images/Video.mp4';
+import video from './Images/video.mp4';
 import {Link} from 'react-router-dom';
 import './home.css';
 import Image1 from "../image/Groavy.png";
