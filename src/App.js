@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Import the AOS CSS file
-import './Anime.css';
 import './Component/Solutions/solution.css'
 // Import your components
 import Layout from "./Component/Header/Layout";
@@ -16,7 +15,7 @@ import WhatsappApi from "./Component/Product/Whatsapp/WhatsappApi";
 import RcsSms from "./Component/Product/Rcs/RcsSms";
 import BulkSms from "./Component/Product/BulkSms/BulkSms";
 import VoiceCall from "./Component/Product/VoiceCall/VoiceCall";
-import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "./Scroll/ScrollToTop";
 import Terms from "./Component/TermsPrivacy/Terms";
 import Privacy from "./Component/TermsPrivacy/Privacy";
 import Service from "./Component/Resources/Services/Service";
@@ -27,7 +26,6 @@ import Gaming from "./Component/Solutions/Gaming/Gaming";
 import Travel from "./Component/Solutions/Travel/Travel";
 import HealthCare from "./Component/Solutions/HealthCare/HealthCare";
 import Food from "./Component/Solutions/Food/Food";
-import WebsiteChecklist from "./checklistData";
 import Retail from "./Component/Solutions/Retail/Retail";
 import Media from "./Component/Solutions/Media/Media";
 import Government from "./Component/Solutions/Government/Government";
@@ -72,7 +70,6 @@ function App() {
           <Route path="government/" element={<Government/>} />
           <Route path="education/" element={<Education/>} />
           <Route path='*' element={<NoPage/>} />
-          <Route path="checklist/" element={<WebsiteChecklist/>}/>
          </Route>
       </Routes>
     </BrowserRouter>

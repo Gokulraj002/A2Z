@@ -6,13 +6,13 @@ import {
   faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import { Form, Input, Checkbox, Button } from "antd"; // Importing Ant Design components
+import ContactForm from "./Form"; // Import the ContactForm component
 import { Link } from "react-router-dom";
-import Contact from '../../image/Contact.jpg'
+import Contact from "../../image/Contact.jpg";
 
 const ContactPage = () => {
   const handleWhatsappClick = () => {
-    window.open("https://wa.me/6366829999", "_blank");
+    window.open("https://wa.me/+918431086185", "_blank");
   };
 
   const handleEmailClick = () => {
@@ -20,7 +20,7 @@ const ContactPage = () => {
   };
 
   const handlePhoneClick = () => {
-    window.location.href = "tel:6366829999";
+    window.location.href = "tel:8431086185";
   };
 
   const handleLinkedinClick = () => {
@@ -37,17 +37,20 @@ const ContactPage = () => {
 
   return (
     <>
-      <div className="bg2"
+      <div
+        className="bg2"
         style={{
-          backgroundImage:
-            `url(${Contact})`,
+          backgroundImage: `url(${Contact})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       >
         <div className="container-fluid py-5">
           <div className="container ">
-            <div className="row" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}>
+            <div
+              className="row"
+              style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}
+            >
               <div className="d-flex mb-3 flex-column">
                 <h1 className="text-center mt-4 text-white">
                   Helping you is our priority
@@ -76,7 +79,7 @@ const ContactPage = () => {
                         style={{ cursor: "pointer", color: "white" }}
                         onClick={handlePhoneClick}
                       >
-                        +91 63668 29999
+                        +91 84310 86185
                       </span>
                     </li>
                     <li className="d-flex align-items-center mb-4">
@@ -139,88 +142,7 @@ const ContactPage = () => {
                 </div>
               </div>
               <div className="col-lg-8 col-md-12 px-5 rounded-3">
-                <Form
-                  name="contact-form"
-                  layout="vertical"
-                  onFinish={onFinish}
-                  autoComplete="off"
-                  size="large"
-                >
-                  <Form.Item
-                    label={<span className="text-white">Name</span>}
-                    name="name"
-                    rules={[
-                      { required: true, message: "Please enter your name" },
-                    ]}
-                  >
-                    <Input placeholder="Enter your name" />
-                  </Form.Item>
-
-                  <Form.Item
-                    label={<span className="text-white">Email</span>}
-                    name="email"
-                    rules={[
-                      { required: true, message: "Please enter your email" },
-                      { type: "email", message: "Please enter a valid email" },
-                    ]}
-                  >
-                    <Input placeholder="Enter your email" />
-                  </Form.Item>
-
-                  <Form.Item
-                    label={<span className="text-white">Phone</span>}
-                    name="phone"
-                    rules={[
-                      {
-                        required: true,
-                        message: "Please enter your phone number",
-                      },
-                    ]}
-                  >
-                    <Input placeholder="Enter your phone number" />
-                  </Form.Item>
-
-                  <Form.Item
-                    label={<span className="text-white">Note</span>}
-                    name="note"
-                  >
-                    <Input.TextArea
-                      rows={3}
-                      placeholder="Enter your message or note"
-                    />
-                  </Form.Item>
-
-                  <Form.Item
-                    name="consent"
-                    valuePropName="checked"
-                    rules={[
-                      {
-                        validator: (_, value) =>
-                          value
-                            ? Promise.resolve()
-                            : Promise.reject(
-                                new Error(
-                                  "You must agree to the terms and conditions"
-                                )
-                              ),
-                      },
-                    ]}
-                  >
-                    <Checkbox className="text-white">
-                      I hereby authorize to send notifications via
-                      SMS/Messages/Promotional/Informational messages and agree
-                      to the{" "}
-                      <Link to="/termsandcondition">Terms of Service</Link> and{" "}
-                      <Link to="/privacypolicies">Privacy Policy</Link>.
-                    </Checkbox>
-                  </Form.Item>
-
-                  <Form.Item>
-                    <Button type="primary" htmlType="submit" className="w-100">
-                      Submit
-                    </Button>
-                  </Form.Item>
-                </Form>
+                <ContactForm onFinish={onFinish} />
               </div>
             </div>
           </div>

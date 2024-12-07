@@ -34,9 +34,7 @@ const Home = () => {
                 <span>Reach large audiences instantly with pre-recorded bulk voice calls.</span>
               </li>
             </ul>
-            <button className="btn btn-primary mt-4 px-4 py-2 fw-bold">
-              Learn More
-            </button>
+       
           </div>
 
           {/* Right Image Section */}

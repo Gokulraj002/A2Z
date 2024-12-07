@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle, faTimesCircle } from "@fortawesome/free-solid-svg-icons";
-import Try from "../../image/product/Whatsapp2.png";
+import Try from "../../image/product/Whats1.png";
 // import Try1 from "../../image/Whats.png";
 
 // JSON Data
@@ -168,10 +168,10 @@ const ComparisonTable = () => {
      <div className="bg-light">
        <div className="container pt-5">
          <div className="row aos">
-           <h2 className="head1 text-center mb-4">Explore Our WhatsApp API Template</h2>
+           <h2 className="head1 text-center mb-2">Explore Our WhatsApp API Template</h2>
       
            <div className="col-12" data-aos="zoom-in">
-             <img src={Try} alt="WhatsApp Template" className="img-fluid" />
+             <img src={Try} alt="WhatsApp Template" className="img-fluid p-5" />
            </div>
            
          </div>

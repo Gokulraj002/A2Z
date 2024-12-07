@@ -1,5 +1,5 @@
 import React from 'react';
-import video from './Images/video.mp4';
+import video from './Images/Video.mp4';
 import {Link} from 'react-router-dom';
 import './home.css';
 import Image1 from "../image/Groavy.png";
@@ -39,8 +39,8 @@ const Video = () => {
             results.
           </p>
           <div className="action-buttons gap-3 w-100">
-            <Link className="btn btn-outline-light px-4  me-2 mb-2">Learn More</Link>
-            <Link className="btn btn-primary px-4  ms-2">Set Up Discovery Call</Link>
+            <Link to='/whatsapp-api/' className="btn btn-outline-light px-4  me-2 mb-2">Learn More</Link>
+            <Link to='/try-for-free/' className="btn btn-primary px-4  ms-2">Set Up Discovery Call</Link>
           </div>
         </div>
       </div>
@@ -49,6 +49,7 @@ const Video = () => {
 
    <div className='container'>
        <div className=" bottom-logos text-center mt-5">
+        <h3 className='text-white fw-bold'>Out TrustedBrands</h3>
          <div className="dflex " style={{justifyContent:'space-around'}}>
            <img src={Image1} alt="Zerodha" className="ms-2 logo-img" />
            <img src={Image2} alt="Swiggy" className="m-2 logo-img" />

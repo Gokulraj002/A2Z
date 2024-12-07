@@ -180,7 +180,7 @@ const Footer = () => {
             </div>
             <div className="d-flex mt-4">
               <Link
-                to="#"
+                to="https://www.facebook.com/A2zsmsservices/"
                 className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-primary rounded-circle"
                 style={{ width: "40px", height: "40px" }}
               >
@@ -194,21 +194,21 @@ const Footer = () => {
                 <FontAwesomeIcon icon={faTwitter} />
               </Link>
               <Link
-                to="#"
+                to="https://in.linkedin.com/in/vinay-reddy-76337b336"
                 className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-primary rounded-circle"
                 style={{ width: "40px", height: "40px" }}
               >
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </Link>
               <Link
-                to="#"
+                to="https://wa.me/918431086185?text=Hi"
                 className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-success rounded-circle"
                 style={{ width: "40px", height: "40px" }}
               >
                 <FontAwesomeIcon icon={faWhatsapp} />
               </Link>
               <Link
-                to="#"
+                to="https://www.youtube.com/@a2zsms"
                 className="text-white fs-5 d-flex justify-content-center align-items-center bg-danger rounded-circle"
                 style={{ width: "40px", height: "40px" }}
               >
