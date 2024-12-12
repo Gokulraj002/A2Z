@@ -48,6 +48,12 @@ body {
   font-family: 'inter' !important;
   line-height: 30px;
 }
+.para-blog{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'inter' !important;
+  /* line-height: 30px; */
+}
 .para-color{
   font-size: 15px;
   font-weight: 500;

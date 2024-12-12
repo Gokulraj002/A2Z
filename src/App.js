@@ -30,15 +30,16 @@ import Retail from "./Component/Solutions/Retail/Retail";
 import Media from "./Component/Solutions/Media/Media";
 import Government from "./Component/Solutions/Government/Government";
 import Education from "./Component/Solutions/Education/Education";
+import Blog from "./Component/Resources/Blogs/Blog";
 
 function App() {
   useEffect(() => {
+    // Initialize AOS with specific settings
     AOS.init({
-      duration: 1800, // Animation duration in milliseconds
-      once: false, // Allow animations to repeat on scroll
-      mirror: true, // Re-animate elements when they scroll back into view
+      duration: 1500,  // Animation duration in milliseconds
+      once: true,      // Allow animations to happen only once
+      mirror: false,   // Disable mirroring animations when scrolling back
     });
-    AOS.refresh(); // Refresh AOS to ensure proper initialization
   }, []);
 
   return (
@@ -60,6 +61,7 @@ function App() {
           <Route path="terms/" element ={<Terms/>} />
           <Route path="services/" element ={<Service/>} />
           <Route path='faq/' element={<MainFaq/>} />
+          <Route path='blogs/' element={<Blog/>} />
           <Route path="real-estate/" element={<RealEstate/>} />
           <Route path="gaming/" element={<Gaming/>} />
           <Route path="tours-travel/" element={<Travel/>} />

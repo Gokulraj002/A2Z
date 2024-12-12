@@ -10,7 +10,7 @@ const FormComponent = ({ title, buttonText }) => {
 
   const onFinish = async (values) => {
     try {
-      const data = { ...values, access_key: "1e5d118a-e389-42db-99d1-a16d8fab4be3" };
+      const data = { ...values, access_key: "0c511151-8204-4f6f-8485-932700f9e589" };
 
       const response = await axios.post("https://api.web3forms.com/submit", data, {
         headers: {

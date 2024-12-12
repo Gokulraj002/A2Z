@@ -19,94 +19,82 @@ const Industries = () => {
       icon: houseIcon,
       alt: "Real estate bulk SMS service provider",
       title: "Real Estate",
-      path: "/real-estate/", // Add path for navigation
-      anim: "fade-down-right",
+      path: "/real-estate/",
     },
     {
       icon: travelIcon,
       alt: "Tours and travels bulk SMS service",
       title: "Tour & Travels",
       path: "/tours-travel/",
-      anim: "fade-down",
     },
     {
       icon: educationIcon,
       alt: "Education bulk SMS service provider",
       title: "Education",
       path: "/education/",
-      anim: "fade-down",
     },
     {
       icon: transportIcon,
       alt: "Transport bulk SMS service provider",
       title: "Transport",
       path: "/tours-travel/",
-      anim: "fade-down-left",
     },
     {
       icon: eventIcon,
       alt: "Event bulk SMS service provider",
       title: "Event",
       path: "/media-entertainment/",
-      anim: "zoom-in-right",
     },
     {
       icon: ecommerceIcon,
       alt: "eCommerce bulk SMS service provider",
       title: "eCommerce",
       path: "/retail-ecommerce/",
-      anim: "zoom-in",
     },
     {
       icon: gameIcon,
       alt: "Game promotional bulk SMS service provider",
       title: "Game",
       path: "/gaming/",
-      anim: "zoom-in",
     },
     {
       icon: healthcareIcon,
       alt: "Healthcare SMS service provider",
       title: "Healthcare",
       path: "/health-care/",
-      anim: "zoom-in-left",
     },
     {
       icon: financeIcon,
       alt: "Finance bulk messaging service",
       title: "Finance",
       path: "/government/",
-      anim: "fade-up-right",
     },
     {
       icon: restaurantIcon,
       alt: "Restaurant SMS service provider",
       title: "Restaurant",
       path: "/food-beverage/",
-      anim: "fade-up",
     },
     {
       icon: onDemandIcon,
       alt: "On-demand transactional SMS service",
       title: "Government",
       path: "/government/",
-      anim: "fade-up",
     },
     {
       icon: groceryIcon,
       alt: "Supermarket bulk SMS service provider",
       title: "Grocery",
       path: "/food-beverage/",
-      anim: "fade-left",
     },
   ];
 
   return (
     <section className="py-5 bg2">
-      <div className="container">
+      <div className="container aos">
         {/* Section Heading */}
-        <div className="row justify-content-center aos">
-          <div className="col-lg-8 text-center" data-aos="zoom-in">
+        <div className="row justify-content-center ">
+          <div className="col-lg-8 text-center" >
             <h2 className="mb-3 head1">Industries We Serve</h2>
             <p className="para-color1">
               Successfully delivered OTP, Billing, Offers, Alerts, Wishes to
@@ -116,7 +104,7 @@ const Industries = () => {
         </div>
 
         {/* Industry Items */}
-        <div className="row mt-4 aos">
+        <div className="row mt-4"  data-aos="zoom-in">
           {industryData.map((industry, index) => (
             <div
               className="col-lg-3 col-md-4 col-sm-6 col-12 mb-4"

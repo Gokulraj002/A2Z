@@ -1,10 +1,46 @@
 import React from "react";
-import { Form, Input, Checkbox, Button } from "antd";
+import { Form, Input, Checkbox, Button, notification } from "antd";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
-const ContactForm = ({ onFinish }) => {
+const ContactForm = () => {
+  const [form] = Form.useForm(); // Initialize the form instance
+
+  const onFinish = async (values) => {
+    try {
+      // Add Web3Forms access key to the form data
+      const data = {
+        ...values,
+        access_key: "0c511151-8204-4f6f-8485-932700f9e589",
+      };
+
+      // Send form data to Web3Forms API
+      const response = await axios.post("https://api.web3forms.com/submit", data, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      // Handle successful submission
+      if (response.status === 200) {
+        notification.success({
+          message: "Success",
+          description: "Your form has been submitted successfully!",
+        });
+        form.resetFields(); // Reset form fields after successful submission
+      }
+    } catch (error) {
+      // Handle errors during submission
+      notification.error({
+        message: "Error",
+        description: "There was an error submitting your form. Please try again later.",
+      });
+    }
+  };
+
   return (
     <Form
+      form={form} // Bind the form instance to the form
       name="contact-form"
       layout="vertical"
       onFinish={onFinish}
@@ -40,10 +76,7 @@ const ContactForm = ({ onFinish }) => {
         <Input placeholder="Enter your phone number" />
       </Form.Item>
 
-      <Form.Item
-        label={<span className="text-white">Note</span>}
-        name="note"
-      >
+      <Form.Item label={<span className="text-white">Note</span>} name="note">
         <Input.TextArea rows={3} placeholder="Enter your message or note" />
       </Form.Item>
 
@@ -81,3 +114,4 @@ const ContactForm = ({ onFinish }) => {
 };
 
 export default ContactForm;
+ 

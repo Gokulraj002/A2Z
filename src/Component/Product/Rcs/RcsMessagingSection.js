@@ -1,6 +1,6 @@
 import React from "react";
-import RcsImage1 from '../../image/rcs11.png';
-import RcsImage2 from '../../image/rcs3.jpg';
+import RcsImage1 from '../../image/product/RCS2.png';
+import RcsImage2 from '../../image/product/RCS3.png';
 
 const RcsMessagingSection = () => {
   return (

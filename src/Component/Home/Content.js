@@ -65,7 +65,7 @@ const Content = () => {
           </div>
 
           {/* Center Section */}
-          <div className="col-md-4 text-center px-md-3" data-aos="zoom-in-up">
+          <div className="col-md-4 text-center px-md-3" data-aos="fade-in">
             <img
               src={content}
               alt="Service Overview"

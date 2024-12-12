@@ -93,12 +93,9 @@
   justify-content: space-between;
 }
 .logo-img {
-  width: 100px; /* Uniform width */
-  height: 100px; /* Uniform height */
+  width: 80px; /* Uniform width */
+  height: 80px; /* Uniform height */
   object-fit: contain; /* Maintains aspect ratio within bounds */
-  /* border: 1px solid #ddd; 
-  border-radius: 5px;  */
-  padding: 5px; /* Optional: Add padding for visual spacing */
 }
 
 
@@ -116,8 +113,8 @@
   width: 100% !important;
 }
 .logo-img {
-  width: 40px; /* Uniform width */
-  height: 40px; /* Uniform height */
+  width: 60px; /* Uniform width */
+  height: 60px; /* Uniform height */
   object-fit: contain; /* Maintains aspect ratio within bounds */
   /* border: 1px solid #ddd; 
   border-radius: 5px;  */

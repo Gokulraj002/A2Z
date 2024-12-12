@@ -1,7 +1,5 @@
 import React from "react";
-import rcsImage from "../../image/rcs2.jpg"; // Replace with your image path
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import rcsImage from "../../image/product/RCS1.png"; // Replace with your image path
 
 const Home = () => {
   return (

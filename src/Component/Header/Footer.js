@@ -4,8 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
-  faTwitter,
-  faLinkedinIn,
+   faLinkedinIn,
   faYoutube,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
@@ -62,7 +61,7 @@ const Footer = () => {
             <ul className="list-unstyled" id="line-space">
               <li>
                 <Link
-                  to="/home/"
+                  to="/"
                   className="text-white text-decoration-none hover pt-2"
                 >
                   <FontAwesomeIcon icon={faAngleDoubleRight} className="me-2" />
@@ -154,7 +153,7 @@ const Footer = () => {
                   className="text-white text-decoration-none hover pt-2"
                 >
                   <FontAwesomeIcon icon={faAngleDoubleRight} className="me-2" />
-                  Blogs
+                  404 Page
                 </Link>
               </li>
             </ul>
@@ -186,13 +185,13 @@ const Footer = () => {
               >
                 <FontAwesomeIcon icon={faFacebookF} />
               </Link>
-              <Link
+              {/* <Link
                 to="#"
                 className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-info rounded-circle"
                 style={{ width: "40px", height: "40px" }}
               >
                 <FontAwesomeIcon icon={faTwitter} />
-              </Link>
+              </Link> */}
               <Link
                 to="https://in.linkedin.com/in/vinay-reddy-76337b336"
                 className="text-white me-3 fs-5 d-flex justify-content-center align-items-center bg-primary rounded-circle"
