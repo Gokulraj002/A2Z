@@ -90,7 +90,7 @@ const Industries = () => {
   ];
 
   return (
-    <section className="py-5 bg2">
+    <section className="py-5 bg-light">
       <div className="container aos">
         {/* Section Heading */}
         <div className="row justify-content-center ">

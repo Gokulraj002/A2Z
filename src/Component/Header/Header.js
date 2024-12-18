@@ -45,7 +45,7 @@ const Header = () => {
       links: [
         { name: "Service", path: "/services/", icon: "🛠️" },
         { name: "Faq", path: "/faq/", icon: "❓" },
-        { name: "404 Page", path: "/blogs/", icon: "📰" },
+        { name: "Blog", path: "/blog/", icon: "📰" },
       ],
     },
     {

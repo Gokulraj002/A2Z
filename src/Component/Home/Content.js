@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // For internal navigation
-import content from "../image/content.webp"; // Replace with your image
+import content from "../image/content1.webp"; // Replace with your image
 
 const Content = () => {
   const servicesData = [
@@ -39,7 +39,7 @@ const Content = () => {
   ];
 
   return (
-    <div className="bg2">
+    <div className="bg-light">
       <div className="container py-5 para-color">
         <div className="row align-items-center gy-5 text-muted aos">
           {/* Left Section */}

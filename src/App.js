@@ -38,7 +38,7 @@ function App() {
     AOS.init({
       duration: 1500,  // Animation duration in milliseconds
       once: true,      // Allow animations to happen only once
-      mirror: false,   // Disable mirroring animations when scrolling back
+      mirror: true,   // Disable mirroring animations when scrolling back
     });
   }, []);
 
@@ -67,11 +67,11 @@ function App() {
           <Route path="tours-travel/" element={<Travel/>} />
           <Route path="health-care/" element={<HealthCare/>} />
           <Route path="food-beverage/" element={<Food/>} />
-          <Route path="retail-ecommerce/" element={<Retail/>} />
+          <Route path="retail-ecommerce/" element={<Retail/>} />  
           <Route path="media-entertainment/" element={<Media/>} />
           <Route path="government/" element={<Government/>} />
           <Route path="education/" element={<Education/>} />
-          <Route path='*' element={<NoPage/>} />
+          <Route path='*' element={<NoPage/>} /> 
          </Route>
       </Routes>
     </BrowserRouter>

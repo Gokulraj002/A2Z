@@ -7,6 +7,8 @@ import TrustedBrands from './TrustedBrands'
 import SocialMedia from '../Product/SocialMedia'
 import Industries from '../Product/BulkSms/Industries'
 import Achievements from '../Resources/Services/Achievements'
+import { whatsappFaqData } from '../Resources/FAQ/FaqData'
+import FAQHome from '../Resources/FAQ/FAQHome'
 
 const Home = () => {
   return (
@@ -19,6 +21,9 @@ const Home = () => {
     <Industries/>
     <Achievements/>
     <Testimonials/>
+    <FAQHome data={whatsappFaqData} />
+    
+
     </>
   )
 }

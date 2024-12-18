@@ -9,6 +9,7 @@ import Apisupport from '../Apisupport'
 import SocialMedia from '../SocialMedia'
 import FAQHome from '../../Resources/FAQ/FAQHome'
 import { Whatsapp } from '../../Resources/FAQ/FaqData'
+import PricingTabs from './WhatsappPricing'
 // import banner from '../../image/'
 
 const WhatsappApi = () => {
@@ -17,6 +18,7 @@ const WhatsappApi = () => {
       <Home/>
       <Client/>
       <ComparisonTable/>
+      <PricingTabs/>
       <Apisupport/>
       <StepsSection/>
       <Features/>
