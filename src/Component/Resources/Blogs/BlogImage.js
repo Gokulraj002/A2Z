@@ -1,14 +1,9 @@
-import blog1 from "./Images/whatsapp.webp";
-import blog2 from "./Images/whatsapp.webp";
-import blog3 from "./Images/whatsapp.webp";
-import blog4 from "./Images/whatsapp.webp";
+import blog1 from"./Images/voice1.jpg";
+import blog2 from"./Images/blog1.jpg";
 
 const BlogImages = {
   1: blog1,
   2: blog2,
-  3: blog3,
-  4: blog4,
-  5: blog4,
 };
 
 export default BlogImages;

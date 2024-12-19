@@ -31,6 +31,19 @@ import Media from "./Component/Solutions/Media/Media";
 import Government from "./Component/Solutions/Government/Government";
 import Education from "./Component/Solutions/Education/Education";
 import Blog from "./Component/Resources/Blogs/Blog";
+import Dec12 from "./Component/Resources/Blogs/December/Dec12";
+import Dec13 from "./Component/Resources/Blogs/December/Dec13";
+import Dec14 from "./Component/Resources/Blogs/December/Dec14";
+import Dec15 from "./Component/Resources/Blogs/December/Dec15";
+import Dec16 from "./Component/Resources/Blogs/December/Dec16"; 
+import Dec17 from "./Component/Resources/Blogs/December/Dec17";
+import Dec18 from "./Component/Resources/Blogs/December/Dec18"; 
+import Dec19 from "./Component/Resources/Blogs/December/Dec19";
+import Dec20 from "./Component/Resources/Blogs/December/Dec20";
+import Dec21 from "./Component/Resources/Blogs/December/Dec21";
+import Dec22 from "./Component/Resources/Blogs/December/Dec22";
+import Dec23 from "./Component/Resources/Blogs/December/Dec23";
+import Dec24 from "./Component/Resources/Blogs/December/Dec24";
 
 function App() {
   useEffect(() => {
@@ -71,6 +84,20 @@ function App() {
           <Route path="media-entertainment/" element={<Media/>} />
           <Route path="government/" element={<Government/>} />
           <Route path="education/" element={<Education/>} />
+          <Route path="blogs/streamlined-bulk-voice-calling-system/" element={<Dec12 />} />
+          <Route path="/blogs/how-whatsApp-chatbots-can-revolutionize-customer-support-for-indian-sMEs/" element={<Dec13/>} />
+          <Route path="blogs/what-is-whatsApp-business-aPI?-a-complete-guide-for-indian-businesses/" element={<Dec14 />} />
+          <Route path="blogs/how-to-use-whatsApp-business-aPI-to-automate-customer-communication/" element={<Dec15 />} />
+          <Route path="blogs/whatsApp-business-aPI-pricing-in-india-everything-you-need-to-know/" element={<Dec16 />} />
+          <Route path="blogs/top-10-benefits-of-whatsApp-chatbots-for-small-businesses-in-bangalore/" element={<Dec17 />} />
+          <Route path="blogs/step-by-step-guide-to-integrating-whatsApp-business-aPI-with-your-cRM/" element={<Dec18 />} />
+          <Route path="blogs/whatsApp-business-aPI-vs-free-whatsApp-business-app-which-one-is-right-for-you/" element={<Dec19 />} />
+          <Route path="/blogs/10-game-changing-marketing-strategies-with-whatsApp-business-aPI/" element={<Dec20/>} />
+          <Route path="/blogs/how-bangalore's-small-businesses-are-unlocking-growth-with-whatsApp-business-aPI/" element={<Dec21/>} />
+          <Route path="/blogs/whatsApp-business-aPI-integration-essential-tools-and-platforms-for-small-business-growth/" element={<Dec22/>} />
+          <Route path="/blogs/why-whatsApp-business-aPI-is-revolutionizing-e-commerce-in-india/" element={<Dec23/>} />
+          <Route path="/blogs/whatsApp-business-aPI-use-cases-transforming-healthcare-in-india/" element={<Dec24/>} />
+
           <Route path='*' element={<NoPage/>} /> 
          </Route>
       </Routes>

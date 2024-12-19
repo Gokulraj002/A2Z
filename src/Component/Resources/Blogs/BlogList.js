@@ -65,7 +65,7 @@ const BlogList = () => {
                   src={images[blog.id]}
                   alt={blog.title}
                   className="card-img-top"
-                  style={{ height: "200px", objectFit: "cover" }}
+                  style={{ height: "285px", objectFit: "cover" }}
                 />
                 <div className="card-body">
                   <h5 className="card-title">{blog.title}</h5>
@@ -73,8 +73,8 @@ const BlogList = () => {
                     {blog.category} · {blog.date}
                   </p>
                   <p className="para-color">{blog.description}</p>
-                  <Link to={`/blogs/${blog.id}`} className="btn btn-outline-primary">
-                    Read More
+                  <Link to={blog.link}>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#moreText" aria-expanded="false" aria-controls="moreText"> Read More</button>
                   </Link>
                 </div>
               </div>
